@@ -1,0 +1,31 @@
+DROP TABLE rank;
+DROP TABLE member;
+DROP TABLE icon;
+DROP TABLE certificate;
+
+CREATE TABLE member(
+    id varchar(255) NOT NULL,
+    name varchar(255) NOT NULL,
+    pwd varchar(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE rank(
+    no INT,
+    id varchar(255) NOT NULL,
+    exp INT NOT NULL,
+    PRIMARY KEY (no),
+    FOREIGN KEY (id) REFERENCES member (id)
+);
+
+CREATE TABLE icon(
+    icon_id INT,
+    icon_name varchar(20) NOT NULL,
+    PRIMARY KEY (icon_id)
+);
+
+CREATE TABLE certificate(
+    certificate_id INT,
+    certificate_name varchar(20) NOT NULL,
+    PRIMARY KEY (certificate_id)
+);
