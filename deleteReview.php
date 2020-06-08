@@ -12,14 +12,10 @@ $result = mysqli_query($conn, $sql);
 
 if($result){
   echo "<script>alert('리뷰가 삭제되었습니다.');</script>";
-  if($method == "mypage"){
-    echo "<script>location.replace('./mypage.php');</script>";
-  } else {
-    echo "<script>location.replace('./review.php');</script>";
-  }
+  echo "<script>location.replace('./mypage.php');</script>";
+}
   
   exit;
   mysqli_close($conn);
-}
 
 ?>  

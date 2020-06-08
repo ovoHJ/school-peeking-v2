@@ -83,7 +83,7 @@
             <li class="nav-item">
               <a
                 class="nav-link js-scroll-trigger"
-                href="src/logout_back.php"
+                href="./login.php"
                 style="display:<?php echo $mainNav2_dp?>;"
                 >로그인/회원가입</a
               >
