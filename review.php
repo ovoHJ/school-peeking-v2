@@ -59,7 +59,7 @@ include("./src/DB.php");
             <li class="nav-item">
               <a
                 class="nav-link js-scroll-trigger"
-                href=""
+                href="mypage.php"
                 >마이페이지</a
               >
             </li>
@@ -106,12 +106,15 @@ include("./src/DB.php");
                   echo "<p class='text'>".$row["text"]."</p>";
                   echo "<span class='date'>".$row["date"]."</span>";
                   echo "<form method='post' action='./deleteReview.php'>";
+                  echo "<input type='hidden' name='method' value='review'>";
                   echo "<input type='hidden' name='num' value='".$row['num']."'>";
                   echo "<input type='submit'/' value='삭제하기'>";
                   echo "</form>";
                   echo "</div>";
                 }
               }
+
+             mysqli_close($conn);
             ?>
 
         </div>

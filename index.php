@@ -1,7 +1,7 @@
 <?php
   session_start();
 
-  if(isset($_SESSION['ss_mb_id'])) {
+  if(isset($_SESSION['id'])) {
     $mainNav_dp = '';
     $mainNav2_dp = 'none';
   } else {

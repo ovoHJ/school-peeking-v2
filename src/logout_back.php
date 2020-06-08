@@ -3,6 +3,6 @@
 session_start();
 session_destroy();
 
-?>
+echo "<script>location.replace('../index.php');</script>";
 
-<meta http-equiv='refresh' content='0;url=../index.php'>
+?>
