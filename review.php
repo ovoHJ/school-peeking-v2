@@ -109,9 +109,10 @@ include("./src/DB.php");
                 }
               }
             ?>
+
         </div>
-    </div>
-</section>
+    </section>
+</div>
 
 </body>
 </html>
