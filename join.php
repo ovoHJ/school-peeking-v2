@@ -7,12 +7,16 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>첫 등교는 IP로! - 회원가입</title>
 
-    <title>첫 등교는 IP로! - 회원가입</title>>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/faviconSchool.ico" />
+    <link rel="icon" href="images/faviconSchool.ico" />
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
 
     <!-- Font -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css" />

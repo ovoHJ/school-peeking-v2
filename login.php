@@ -14,6 +14,10 @@
 
     <title>첫 등교는 IP로! - 로그인</title>
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/faviconSchool.ico" />
+    <link rel="icon" href="images/faviconSchool.ico" />
+
     <!-- Font -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css" />
 

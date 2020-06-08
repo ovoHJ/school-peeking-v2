@@ -1,7 +1,7 @@
 <?php
 $mysql_host = "localhost";
 $mysql_user = "root";
-$mysql_password = "1234";
+$mysql_password = "mirim2";
 $mysql_db = "spV2";
 
 //mysql을 연동시키기 위한 환경 개방
