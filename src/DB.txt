@@ -1,7 +1,5 @@
-DROP TABLE rank;
+DROP TABLE review;
 DROP TABLE member;
-DROP TABLE icon;
-DROP TABLE certificate;
 
 CREATE TABLE member(
     id varchar(255) NOT NULL,
@@ -10,22 +8,10 @@ CREATE TABLE member(
     PRIMARY KEY (id)
 );
 
-CREATE TABLE rank(
-    no INT,
-    id varchar(255) NOT NULL,
-    exp INT NOT NULL,
-    PRIMARY KEY (no),
-    FOREIGN KEY (id) REFERENCES member (id)
-);
-
-CREATE TABLE icon(
-    icon_id INT,
-    icon_name varchar(20) NOT NULL,
-    PRIMARY KEY (icon_id)
-);
-
-CREATE TABLE certificate(
-    certificate_id INT,
-    certificate_name varchar(20) NOT NULL,
-    PRIMARY KEY (certificate_id)
-);
+CREATE TABLE review (
+  num int(11) NOT NULL AUTO_INCREMENT,
+  id varchar(255) NOT NULL,
+  text varchar(255) NOT NULL,
+  date date NOT NULL,
+  PRIMARY KEY (num)
+)

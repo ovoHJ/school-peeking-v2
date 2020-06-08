@@ -5,7 +5,10 @@ include('./DB.php');
 $mb_id =   trim($_POST['email']);
 $mb_pwd =  trim($_POST['pwd']);
 
+header("Content-Type: text/html; charset=UTF-8");
+
 if(!$mb_id) {
+    
     echo "<script>alert('이메일이 넘어오지 않았습니다.')</script>";
     echo "<script>location.replace('../login.php');</script>";
     exit;
@@ -29,7 +32,7 @@ if(!($mb_pwd === $mb['pwd'])) {
     exit;
 }
 
-$_SESSION['ss_mb_id'] = $mb_id;
+$_SESSION['id'] = $mb_id;
 
 mysqli_close($conn);
 
