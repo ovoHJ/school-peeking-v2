@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>첫 등교는 IP로! - 리뷰</title>
+    <title>첫 등교는 IP로! - 마이페이지</title>
 
     <!-- Font -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css" />
@@ -17,7 +17,7 @@
 
 <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand js-scroll-trigger" href="#">리뷰</a>
+        <a class="navbar-brand js-scroll-trigger" href="#">마이페이지</a>
         <button
                 class="navbar-toggler navbar-toggler-right"
                 type="button"
@@ -50,22 +50,30 @@
 
 <div class="container">
     <section class="section-box text-center" style="margin-top: 100px">
-        <h3 class="note">수정이 불가하니 한번 더 생각하고 작성해주세요!</h3>
-        <div class="review-add">
+        <div class="my-profile">
             <form action="#" method="post">
-                <input type="text" name="text-review" id="review-text" />
-                <button type="submit" name id="btn-review">등록</button>
+                <img class="profile" src="./images/person.png" alt="프로필 사진" style="width: 100px">
+                <h5 class="profile-name">김미림</h5>
+                <button type="button">회원정보수정</button>
             </form>
         </div>
-        <div class="all-review">
-            <div class="one-review">
-                <img class="profile" src="./images/person.png" alt="프로필 사진" style="width: 100px">
-                <div class="review">
-                    <h5 class="name">김미림</h5>
-                    <p class="contents">너무 만족하며 쓰고 있습니다!</p>
-                    <span class="date">2020.05.21</span>
+    </section>
+
+    <section class="section-box text-center" style="margin-top: 100px">
+        <h3 class="note">내가 작성한 리뷰</h3>
+        <div class="my-review">
+            <form action="#" method="post">
+                <!-- 팝업창 띄어서 해야하는데 일단 삭제만 눌러서 삭제할 수 있게 하세요. 이후 수정할게요 -->
+                <div class="one-review">
+                    <img class="profile" src="./images/person.png" alt="프로필 사진" style="width: 100px">
+                    <div class="review">
+                        <h5 class="review-name">김미림</h5>
+                        <p class="contents">너무 만족하며 쓰고 있습니다!</p>
+                        <span class="date">2020.05.21</span>
+                    </div>
+                    <button type="button">삭제</button>
                 </div>
-            </div>
+            </form>
         </div>
     </section>
 </div>
