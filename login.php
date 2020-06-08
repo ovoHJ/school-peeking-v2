@@ -7,7 +7,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,11 +18,10 @@
     <link rel="shortcut icon" href="images/faviconSchool.ico" />
     <link rel="icon" href="images/faviconSchool.ico" />
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-
     <!-- Font -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css" />
 
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/login.css" />
 </head>

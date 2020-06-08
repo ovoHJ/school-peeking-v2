@@ -1,34 +1,17 @@
-<?php
-  session_start();
-
-  if(isset($_SESSION['ss_mb_id'])) {
-    $mainNav_dp = '';
-    $mainNav2_dp = 'none';
-  } else {
-    $mainNav_dp = 'none';
-    $mainNav2_dp = '';
-  }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>첫 등교는 IP로!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="images/faviconSchool.ico" />
-    <link rel="icon" href="images/faviconSchool.ico" />
-
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <title>첫 등교는 IP로! - 리뷰</title>
 
     <!-- Font -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css" />
 
-    <link rel="stylesheet" href="./css/grayscale.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/structure.css" />
+    <link rel="stylesheet" href="./css/grayscale.css" />
 </head>
 <body>
     <!-- Navigation -->
@@ -76,8 +59,25 @@
       </div>
     </nav>
 
-    <div class="container">
-      <img src="images/index/structure.png" alt="structure" id="mainImg" class="img-fluid">
+<section class="section-box text-center" style="margin-top: 100px">
+    <h3 class="note">수정이 불가하니 한번 더 생각하고 작성해주세요!</h3>
+    <div class="review-add">
+        <form action="#" method="post">
+            <input type="text" name="text-review" id="review-text" />
+            <button type="submit" name id="btn-review">등록</button>
+        </form>
     </div>
+    <div class="all-review">
+        <div class="all-review">
+            <img class="profile" src="./images/person.png" alt="프로필 사진" style="width: 100px">
+            <div class="review">
+                <h5 class="name">김미림</h5>
+                <p class="contents">너무 만족하며 쓰고 있습니다!</p>
+                <span class="date">2020.05.21</span>
+            </div>
+        </div>
+    </div>
+</section>
+
 </body>
 </html>

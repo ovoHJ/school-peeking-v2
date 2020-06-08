@@ -51,8 +51,9 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto list-unstyled">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger"
-              href=""
+              <a
+                class="nav-link js-scroll-trigger"
+                href="review.php"
                 >리뷰 쓰기</a
               >
             </li>
@@ -67,7 +68,6 @@
               <a 
                 class="nav-link js-scroll-trigger"
                 href="src/logout_back.php"
-                id="logout"
                 >로그아웃</a
               >
             </li>
