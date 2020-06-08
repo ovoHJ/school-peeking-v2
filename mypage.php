@@ -1,3 +1,15 @@
+<?php
+
+    include('./src/DB.php');
+
+    $id = $_SESSION['id'];
+
+    $sql = "SELECT id, name FROM member where id = '$id'";
+    $result = mysqli_query($conn, $sql);
+    $mb = mysqli_fetch_assoc($result);
+
+    
+?>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -52,9 +64,19 @@
     <section class="section-box text-center" style="margin-top: 100px">
         <div class="my-profile">
             <form action="#" method="post">
-                <img class="profile" src="./images/person.png" alt="프로필 사진" style="width: 100px">
+            <?php
+            
+            echo "<img class='profile' src='./images/person.png' alt='프로필 사진' style='width: 100px'>";
+            echo "<h5 class='profile-name'>".$mb['name']."</h5>";
+            echo "<form method='post' action='./updateMB.php'>";
+            echo "<input type='hidden' name='id' value=".$mb['id'].">";
+            echo "<input type='submit' value='회원정보수정'></button>";
+            echo "</form>";
+
+            ?>
+                <!-- <img class="profile" src="./images/person.png" alt="프로필 사진" style="width: 100px">
                 <h5 class="profile-name">김미림</h5>
-                <button type="button">회원정보수정</button>
+                <button type="button">회원정보수정</button> -->
             </form>
         </div>
     </section>
@@ -62,18 +84,41 @@
     <section class="section-box text-center" style="margin-top: 100px">
         <h3 class="note">내가 작성한 리뷰</h3>
         <div class="my-review">
-            <form action="#" method="post">
                 <!-- 팝업창 띄어서 해야하는데 일단 삭제만 눌러서 삭제할 수 있게 하세요. 이후 수정할게요 -->
                 <div class="one-review">
-                    <img class="profile" src="./images/person.png" alt="프로필 사진" style="width: 100px">
+                    <!-- <img class="profile" src="./images/person.png" alt="프로필 사진" style="width: 100px">
                     <div class="review">
                         <h5 class="review-name">김미림</h5>
                         <p class="contents">너무 만족하며 쓰고 있습니다!</p>
                         <span class="date">2020.05.21</span>
-                    </div>
-                    <button type="button">삭제</button>
+                    </div> -->
+                    <?php
+                        if($result){
+                            $sql = "SELECT * FROM review where id = '".$mb['id']."'";
+                            $result2 = mysqli_query($conn, $sql);
+                            $num_rows = mysqli_num_rows($result2);
+
+                            if ($num_rows > 0) {
+                                // output data of each row
+                                while($row = mysqli_fetch_assoc($result2)) {
+                                    echo "<img class='profile' src='./images/person.png' alt='프로필 사진' style='width: 100px'>";
+                                    echo "<div class='review'>";
+                                    echo "<h5 class='name'>".$row['id']."</h5>";
+                                    echo "<p class='text'>".$row["text"]."</p>";
+                                    echo "<span class='date'>".$row["date"]."</span>";
+                                    echo "<form method='post' action='./deleteReview.php'>";
+                                    echo "<input type='hidden' name='method' value='mypage'>";
+                                    echo "<input type='hidden' name='num' value='".$row['num']."'>";
+                                    echo "<input type='submit' value='삭제하기'>";
+                                    echo "</form>";
+                                    echo "</div>";
+                                }
+                            }
+                        }
+
+                        mysqli_close($conn);
+                    ?>
                 </div>
-            </form>
         </div>
     </section>
 </div>
