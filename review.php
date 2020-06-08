@@ -36,6 +36,13 @@
             <li class="nav-item">
               <a
                 class="nav-link js-scroll-trigger"
+                href="roadview.php"
+                >로드뷰</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link js-scroll-trigger"
                 href="review.php"
                 >리뷰 쓰기</a
               >

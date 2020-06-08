@@ -1,8 +1,74 @@
-.section1 {
-    margin: 20vh 20% 12vh 20%;
+* {
     text-align: center;
-    color: white;
 }
-.section1 > img {
-    width: 30vw;
+body {
+    overflow-x: hidden;
+}
+#scroll {
+    width: 3vw;
+    margin: 30vh 3.4vw;
+    float: right;
+    display: none;
+}
+.section1 {
+    margin: 20vh 10%;
+    color: white;
+    font-size: 4vmin;
+}
+.section1 h1 {
+    font-weight: bold;
+    font-size: 6vmin;
+}
+.section1 > #video {
+    width: 26vw;
+}
+.section2 {
+    background-color: white;
+    padding: 10vw;
+    font-size: 3vmin;
+}
+.section2 h3 {
+    font-weight: bold;
+    font-size: 4vmin;
+}
+.section3 {
+    margin: 34vh 10%;
+    color: white;
+    font-size: 3vmin;
+}
+.section3 h2 {
+    font-weight: bold;
+    font-size: 5vmin;
+}
+.section3 input {
+    margin: 8vh 0 0 0;
+    color: #008156;
+    background-color: white;
+    border: 0;
+    padding: 0.6vw 2vw;
+    border-radius: 10vw;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+@media (min-width: 1025px){
+    #scroll {
+        display: inline;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .section2 h3, .section2 span {
+        display: none;
+    }
+    .section3 {
+        margin: 20vh 0;
+        color: white;
+        font-size: 3vmin;
+    }
+    .section3 div {
+        padding: 30px;
+    }
 }

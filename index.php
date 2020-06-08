@@ -53,6 +53,13 @@
             <li class="nav-item">
               <a
                 class="nav-link js-scroll-trigger"
+                href="roadview.php"
+                >로드뷰</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link js-scroll-trigger"
                 href="review.php"
                 >리뷰 쓰기</a
               >
@@ -76,6 +83,8 @@
       </div>
     </nav>
 
+    <img src="images/index/scroll.png" alt="scroll" id="scroll">
+
     <div class="container">
 
       <div class="section1">
@@ -85,51 +94,42 @@
         </p>
         <br><img src="images/index/video.png" alt="video" id="video">
       </div>
+    </div>
 
-      <!-- <table>
-          <tr>
-              <td><img src="images/index/foo1.png" alt="box"></td>
-              <td>
-                  <h3>구조도 VS 로드뷰</h3>
-                  당신에게 필요한 기능을 선택하세요!
-              </td>
-          </tr>
-          <tr>
-              <td>
-                  <h3>학교의 전체 위치를 파악할 수 있는 구조도</h3>
-                  로드뷰~
-              </td>
-              <td><img src="images/index/foo2.png" alt="box"></td>
-          </tr>
-          <tr>
-              <td><img src="images/index/foo3.png" alt="box"></td>
-              <td>
-                  <h3>자세한 학교 내부를 구경할 수 있는 로드뷰</h3>
-                  학급과 실습실 등의 이동노선을 알아보세요!
-              </td>
-          </tr>
-          <tr>
-              <td>
-                  <h3>TO. 첫 등교는 IP로!</h3>
-                  수정이 불가하니 리뷰는 신중하게!
-              </td>
-              <td><img src="images/index/foo4.png" alt="box"></td>
-          </tr>
-      </table>
+    <div class="section2 row">
+      <img src="images/index/foo1.png" alt="box" class="col-sm-6">
+      <div class="col-sm-6 m-auto">
+        <h3>구조도 VS 로드뷰</h3>
+        <span><br>당신에게 필요한 기능을 선택하세요!</span>
+      </div>
+      <div class="col-sm-6 m-auto">
+        <h3>학교의 전체 위치를<br> 파악할 수 있는 구조도</h3>
+        <span><br>학교의 전체적인 구조를<br> 한눈에 파악하세요!</span>
+      </div>
+      <img src="images/index/foo2.png" alt="box" class="col-sm-6">
+      <img src="images/index/foo2.png" alt="box" class="col-sm-6">
+      <div class="col-sm-6 m-auto">
+        <h3>자세한 학교 내부를<br> 구경할 수 있는 로드뷰</h3>
+        <span><br>학급과 실습실 등의<br> 이동노선을 알아보세요!</span>
+      </div>
+      <div class="col-sm-6 m-auto">
+        <h3>TO. 첫 등교는 IP로!</h3>
+        <span><br>수정이 불가하니<br> 리뷰는 신중하게 남겨주세요!</span>
+      </div>
+      <img src="images/index/foo4.png" alt="box" class="col-sm-6">
+    </div>
 
-      <div>
-          <div>
-              <h2>첫 방문이신가요?</h2>
-              <span>주요 장소 한 눈에 보기</span>
-              <input type="button" value="구조도 보기">
-          </div>
-          <div>
-              <h2>미림 구조 마스터!</h2>
-              <span>자세한 내부 로드뷰 보기</span>
-              <input type="button" value="로드뷰 보기">
-          </div>
-      </div> -->
-      
+    <div class="section3 row">
+      <div class="col-sm-6 m-auto">
+          <h2>첫 방문이신가요?</h2>
+          <span>주요 장소 한 눈에 보기</span><br>
+          <input type="button" value="구조도 보기" onclick="location.href = 'structure.php'">
+      </div>
+      <div class="col-sm-6 m-auto">
+          <h2>미림 구조 마스터!</h2>
+          <span>자세한 내부 로드뷰 보기</span><br>
+          <input type="button" value="로드뷰 보기" onclick="location.href = 'roadview.php'">
+      </div>
     </div>
 </body>
 </html>
