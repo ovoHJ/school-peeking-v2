@@ -11,7 +11,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -67,7 +67,8 @@
             <li class="nav-item">
               <a
                 class="nav-link js-scroll-trigger"
-                href=""
+                href="mypage.php"
+                style="display:<?php echo $mainNav_dp?>;"
                 >마이페이지</a
               >
             </li>
@@ -75,7 +76,16 @@
               <a 
                 class="nav-link js-scroll-trigger"
                 href="src/logout_back.php"
+                style="display:<?php echo $mainNav_dp?>;"
                 >로그아웃</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link js-scroll-trigger"
+                href="src/logout_back.php"
+                style="display:<?php echo $mainNav2_dp?>;"
+                >로그인/회원가입</a
               >
             </li>
           </ul>
