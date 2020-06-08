@@ -115,11 +115,6 @@ include("./src/DB.php");
                   echo "<h5 class='name'>".$row['id']."</h5>";
                   echo "<p class='text'>".$row["text"]."</p>";
                   echo "<span class='date'>".$row["date"]."</span>";
-                  echo "<form method='post' action='./deleteReview.php'>";
-                  echo "<input type='hidden' name='method' value='review'>";
-                  echo "<input type='hidden' name='num' value='".$row['num']."'>";
-                  echo "<input type='submit'/' value='삭제하기'>";
-                  echo "</form>";
                   echo "</div>";
                 }
               }
