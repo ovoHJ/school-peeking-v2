@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7a0d77d-d0c4-46af-b101-df079e5d8808" name="Default Changelist" comment="add no css mypage">
+    <list default="true" id="c7a0d77d-d0c4-46af-b101-df079e5d8808" name="Default Changelist" comment="modify index, little join mypage review structure">
+      <change afterPath="$PROJECT_DIR$/css/review.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/join.php" beforeDir="false" afterPath="$PROJECT_DIR$/join.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mypage.php" beforeDir="false" afterPath="$PROJECT_DIR$/mypage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/review.php" beforeDir="false" afterPath="$PROJECT_DIR$/review.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DB.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/structure.php" beforeDir="false" afterPath="$PROJECT_DIR$/structure.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -83,7 +82,7 @@
       <workItem from="1591625369828" duration="896000" />
       <workItem from="1591628561831" duration="624000" />
       <workItem from="1591635485743" duration="2385000" />
-      <workItem from="1591637895250" duration="979000" />
+      <workItem from="1591637895250" duration="1992000" />
     </task>
     <task id="LOCAL-00001" summary="add no css review">
       <created>1591581257277</created>
@@ -99,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591586418360</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="modify index, little join mypage review structure">
+      <created>1591638936120</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591638936120</updated>
+    </task>
+    <task id="LOCAL-00004" summary="modify index, little join mypage review structure">
+      <created>1591639046979</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591639046979</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,17 +134,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add no css review" />
     <MESSAGE value="add no css mypage" />
-    <option name="LAST_COMMIT_MESSAGE" value="add no css mypage" />
+    <MESSAGE value="modify index, little join mypage review structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify index, little join mypage review structure" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="545" y="113" key="CommitChangelistDialog2" timestamp="1591638989442">
+    <state x="545" y="113" key="CommitChangelistDialog2" timestamp="1591639134818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="545" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591638989442" />
-    <state x="157" y="35" width="1536" height="861" key="DiffContextDialog" timestamp="1591636523199">
+    <state x="545" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591639134818" />
+    <state x="157" y="35" width="1536" height="861" key="DiffContextDialog" timestamp="1591639937530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="157" y="35" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591636523199" />
+    <state x="157" y="35" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591639937530" />
     <state x="686" y="230" key="RollbackChangesDialog" timestamp="1591636475113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -140,17 +154,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591462079149" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591638991932">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591639175837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591638991932" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591639175837" />
     <state x="665" y="310" key="git4idea.merge.GitMergeDialog" timestamp="1591636419368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="310" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591636419368" />
-    <state x="607" y="310" key="git4idea.merge.GitPullDialog" timestamp="1591637905050">
+    <state x="607" y="310" key="git4idea.merge.GitPullDialog" timestamp="1591639920906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="607" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591637905050" />
+    <state x="607" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591639920906" />
   </component>
 </project>
