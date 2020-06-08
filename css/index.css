@@ -1,0 +1,8 @@
+.section1 {
+    margin: 20vh 20% 12vh 20%;
+    text-align: center;
+    color: white;
+}
+.section1 > img {
+    width: 30vw;
+}
