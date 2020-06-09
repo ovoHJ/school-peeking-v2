@@ -1,7 +1,7 @@
 <?php
-$mysql_host = "localhost";
-$mysql_user = "root";
-$mysql_password = "1234";
+$mysql_host = "ec2-13-209-15-62.ap-northeast-2.compute.amazonaws.com";
+$mysql_user = "roadview";
+$mysql_password = "roadviewserver";
 $mysql_db = "spV2";
 
 //mysql을 연동시키기 위한 환경 개방
