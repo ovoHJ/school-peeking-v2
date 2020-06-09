@@ -21,6 +21,7 @@ include("./src/DB.php");
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/grayscale.css" />
+    <link rel="stylesheet" href="./css/review.css" />
 </head>
 <body>
     <!-- Navigation -->
@@ -111,10 +112,10 @@ include("./src/DB.php");
                 // output data of each row
                 while($row = mysqli_fetch_assoc($result)) {
                   echo "<img class='profile' src='./images/person.png' alt='프로필 사진' style='width: 100px'>";
+                  echo "<span class='date'>".$row["date"]."</span>";
                   echo "<div class='review'>";
                   echo "<h5 class='name'>".$row['id']."</h5>";
                   echo "<p class='text'>".$row["text"]."</p>";
-                  echo "<span class='date'>".$row["date"]."</span>";
                   echo "</div>";
                 }
               }
