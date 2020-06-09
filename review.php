@@ -94,8 +94,10 @@ include("./src/DB.php");
             <button type="submit" name id="btn-review">등록</button>
         </form>
     </div>
+    <!--
     <div class="all-review">
         <div class="all-review">
+    -->
             <!-- <img class="profile" src="./images/person.png" alt="프로필 사진" style="width: 100px">
             <div class="review">
                 <h5 class="name">김미림</h5>
@@ -111,21 +113,27 @@ include("./src/DB.php");
             if ($num_rows > 0) {
                 // output data of each row
                 while($row = mysqli_fetch_assoc($result)) {
+                echo"<div class="all-review">";
+                echo"<div class="a-review">";
                   echo "<img class='profile' src='./images/person.png' alt='프로필 사진' style='width: 100px'>";
                   echo "<span class='date'>".$row["date"]."</span>";
                   echo "<div class='review'>";
                   echo "<h5 class='name'>".$row['id']."</h5>";
                   echo "<p class='text'>".$row["text"]."</p>";
                   echo "</div>";
+                  echo "</div>";
+                  echo "</div>";
                 }
               }
 
              mysqli_close($conn);
             ?>
-
+<!--
         </div>
-    </section>
-</div>
+       </div>
+-->
+</section>
+
 
 </body>
 </html>
