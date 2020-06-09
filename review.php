@@ -2,15 +2,16 @@
 
 include("./src/DB.php");
 
-
-session_start();
+// session_start();
 
   if(isset($_SESSION['id'])) {
     $mainNav_dp = '';
     $mainNav2_dp = 'none';
+    $btn_disabled = '';
   } else {
     $mainNav_dp = 'none';
     $mainNav2_dp = '';
+    $btn_disabled = 'disabled';
   }
 ?>
 <!DOCTYPE html>
@@ -100,8 +101,17 @@ session_start();
     <h3 class="note">수정이 불가하니 한번 더 생각하고 작성해주세요!</h3>
     <div class="review-add">
         <form action="./makeReview.php" method="post">
-            <input type="text" class="text-review" name="text-review" id="text-review" />
-            <button type="submit" class="btn-review" name id="btn-review">등록</button>
+        <?php 
+        
+          if($btn_disabled == ''){
+            echo "<input type='text' class='text-review' name='text-review' id='text-review' />";
+            echo "<button type='submit' class='btn-review' name id='btn-review'>등록</button>";
+          } else {
+            echo "<input type='text' class='text-review' name='text-review' id='text-review' disabled/>";
+            echo "<button type='submit' class='btn-review' name id='btn-review' disabled>등록</button>";
+          }
+        ?>
+            
         </form>
     </div>
     <!--
