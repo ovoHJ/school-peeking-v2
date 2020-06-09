@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a0d77d-d0c4-46af-b101-df079e5d8808" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/review.php" beforeDir="false" afterPath="$PROJECT_DIR$/review.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +80,7 @@
       <workItem from="1591637895250" duration="4589000" />
       <workItem from="1591659311035" duration="403000" />
       <workItem from="1591659818953" duration="3836000" />
-      <workItem from="1591674799464" duration="1103000" />
+      <workItem from="1591674799464" duration="1334000" />
     </task>
     <task id="LOCAL-00001" summary="add no css review">
       <created>1591581257277</created>
@@ -125,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591675509678</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="modify review">
+      <created>1591675929895</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591675929896</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,13 +156,14 @@
     <MESSAGE value="modify index, little join mypage review structure" />
     <MESSAGE value="modify nav session" />
     <MESSAGE value="add review css" />
-    <option name="LAST_COMMIT_MESSAGE" value="add review css" />
+    <MESSAGE value="modify review" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify review" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="545" y="113" key="CommitChangelistDialog2" timestamp="1591675507792">
+    <state x="545" y="113" key="CommitChangelistDialog2" timestamp="1591675928252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="545" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591675507792" />
+    <state x="545" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591675928252" />
     <state x="157" y="35" width="1536" height="861" key="DiffContextDialog" timestamp="1591639984399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -169,10 +176,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591462079149" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591675530643">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591676176925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591675530643" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591676176925" />
     <state x="665" y="310" key="git4idea.merge.GitMergeDialog" timestamp="1591636419368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

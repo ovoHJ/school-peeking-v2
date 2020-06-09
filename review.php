@@ -61,7 +61,6 @@ include("./src/DB.php");
               <a
                 class="nav-link js-scroll-trigger"
                 href="mypage.php"
-                style="display:<?php echo $mainNav_dp?>;"
                 >마이페이지</a
               >
             </li>
@@ -69,7 +68,6 @@ include("./src/DB.php");
               <a
                 class="nav-link js-scroll-trigger"
                 href="src/logout_back.php"
-                style="display:<?php echo $mainNav_dp?>;"
                 >로그아웃</a
               >
             </li>
@@ -77,7 +75,6 @@ include("./src/DB.php");
               <a
                 class="nav-link js-scroll-trigger"
                 href="src/logout_back.php"
-                style="display:<?php echo $mainNav2_dp?>;"
                 >로그인/회원가입</a
               >
             </li>
