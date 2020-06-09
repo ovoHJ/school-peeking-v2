@@ -2,6 +2,16 @@
 
 include("./src/DB.php");
 
+
+session_start();
+
+  if(isset($_SESSION['id'])) {
+    $mainNav_dp = '';
+    $mainNav2_dp = 'none';
+  } else {
+    $mainNav_dp = 'none';
+    $mainNav2_dp = '';
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +34,7 @@ include("./src/DB.php");
     <link rel="stylesheet" href="./css/review.css" />
 </head>
 <body>
-    <!-- Navigation -->
+<!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand js-scroll-trigger" href="index.php"
@@ -61,6 +71,7 @@ include("./src/DB.php");
               <a
                 class="nav-link js-scroll-trigger"
                 href="mypage.php"
+                style="display:<?php echo $mainNav_dp?>;"
                 >마이페이지</a
               >
             </li>
@@ -68,13 +79,15 @@ include("./src/DB.php");
               <a
                 class="nav-link js-scroll-trigger"
                 href="src/logout_back.php"
+                style="display:<?php echo $mainNav_dp?>;"
                 >로그아웃</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link js-scroll-trigger"
-                href="src/logout_back.php"
+                href="./login.php"
+                style="display:<?php echo $mainNav2_dp?>;"
                 >로그인/회원가입</a
               >
             </li>
@@ -83,12 +96,12 @@ include("./src/DB.php");
       </div>
     </nav>
 
-<section class="section-box text-center" style="margin-top: 100px">
+<section class="section-box text-center">
     <h3 class="note">수정이 불가하니 한번 더 생각하고 작성해주세요!</h3>
     <div class="review-add">
         <form action="./makeReview.php" method="post">
-            <input type="text" name="text-review" id="text-review" />
-            <button type="submit" name id="btn-review">등록</button>
+            <input type="text" class="text-review" name="text-review" id="text-review" />
+            <button type="submit" class="btn-review" name id="btn-review">등록</button>
         </form>
     </div>
     <!--
@@ -110,8 +123,8 @@ include("./src/DB.php");
             if ($num_rows > 0) {
                 // output data of each row
                 while($row = mysqli_fetch_assoc($result)) {
-                echo"<div class="all-review">";
-                echo"<div class="a-review">";
+                echo"<div class='all-review'>";
+                echo"<div class='a-review'>";
                   echo "<img class='profile' src='./images/person.png' alt='프로필 사진' style='width: 100px'>";
                   echo "<span class='date'>".$row["date"]."</span>";
                   echo "<div class='review'>";
