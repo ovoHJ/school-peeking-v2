@@ -13,6 +13,7 @@ include("./src/DB.php");
     $mainNav2_dp = '';
     $btn_disabled = 'disabled';
   }
+  
 ?>
 <!DOCTYPE html>
 <html lang="en">

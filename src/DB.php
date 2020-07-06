@@ -1,5 +1,5 @@
 <?php
-$mysql_host = "ec2-13-209-15-62.ap-northeast-2.compute.amazonaws.com";
+$mysql_host = "ec2-15-164-215-6.ap-northeast-2.compute.amazonaws.com";
 $mysql_user = "roadview";
 $mysql_password = "roadviewserver";
 $mysql_db = "spV2";
