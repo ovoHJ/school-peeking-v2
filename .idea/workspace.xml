@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a0d77d-d0c4-46af-b101-df079e5d8808" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/mypage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-1.11.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.bpopup-0.10.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadview.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/grayscale.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grayscale.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/join.php" beforeDir="false" afterPath="$PROJECT_DIR$/join.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypage.php" beforeDir="false" afterPath="$PROJECT_DIR$/mypage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/review.php" beforeDir="false" afterPath="$PROJECT_DIR$/review.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure.php" beforeDir="false" afterPath="$PROJECT_DIR$/structure.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +43,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/developmentProject/HIP" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -43,10 +54,15 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Bitnami\wampstack-7.2.24-0\apache2\htdocs\school-peeking-real-final\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Bitnami\wampstack-7.2.24-0\apache2\htdocs\school-peeking-real-final\js" />
+      <recent name="C:\Bitnami\wampstack-7.2.24-0\apache2\htdocs\school-peeking-real-final" />
+      <recent name="C:\Users\s2018\developmentProject\school-peeking-real-final" />
       <recent name="C:\Users\s2018\developmentProject\school-peeking-v2" />
       <recent name="C:\Users\s2018\developmentProject\school-peeking-v2\images" />
-      <recent name="C:\Users\s2018\developmentProject\school-peeking-v2\css" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -82,6 +98,14 @@
       <workItem from="1591659311035" duration="403000" />
       <workItem from="1591659818953" duration="3836000" />
       <workItem from="1591674799464" duration="2167000" />
+      <workItem from="1594049061832" duration="23000" />
+      <workItem from="1594051633176" duration="32000" />
+      <workItem from="1594057185533" duration="799000" />
+      <workItem from="1594059085078" duration="1390000" />
+      <workItem from="1594060547101" duration="33000" />
+      <workItem from="1594068146611" duration="316000" />
+      <workItem from="1594074724484" duration="192000" />
+      <workItem from="1594099560652" duration="3304000" />
     </task>
     <task id="LOCAL-00001" summary="add no css review">
       <created>1591581257277</created>
@@ -173,10 +197,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="747" y="90" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591676198794" />
-    <state x="157" y="35" width="1536" height="861" key="DiffContextDialog" timestamp="1591639984399">
+    <state x="157" y="35" width="1536" height="861" key="DiffContextDialog" timestamp="1594099698392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="157" y="35" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591639984399" />
+    <state x="157" y="35" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594099698392" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594074915056">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594074915056" />
     <state x="686" y="230" key="RollbackChangesDialog" timestamp="1591636475113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -185,17 +213,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591462079149" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591676210728">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594104531942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591676210728" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594104531942" />
     <state x="665" y="310" key="git4idea.merge.GitMergeDialog" timestamp="1591636419368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="310" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591636419368" />
-    <state x="607" y="310" key="git4idea.merge.GitPullDialog" timestamp="1591676479210">
+    <state x="607" y="310" key="git4idea.merge.GitPullDialog" timestamp="1594104536779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="607" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591676479210" />
+    <state x="607" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594104536779" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594103001331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594103001331" />
   </component>
 </project>

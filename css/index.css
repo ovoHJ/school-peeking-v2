@@ -1,4 +1,4 @@
-* {
+.box {
     text-align: center;
 }
 body {
@@ -19,7 +19,7 @@ body {
     font-weight: bold;
     font-size: 6vmin;
 }
-.section1 > #video {
+.section1 > #my-button {
     width: 26vw;
 }
 .section2 {

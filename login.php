@@ -29,7 +29,7 @@
 
 <div class="view">
     <div class="logo">
-        <img src="images/mirim.PNG" />
+        <img src="./images/mirim.png" alt="">
         <span class="school-name">미림여자정보과학고등학교</span>
     </div>
     <div class="profile">
