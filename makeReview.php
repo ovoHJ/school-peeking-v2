@@ -4,7 +4,9 @@ include("./src/DB.php");
 
 $rv_id = $_SESSION ['id'];
 $rv_text = trim($_POST['text-review']);
-$date = date("Y-m-d");
+$date = date_create('now')->format('Y-m-d');
+
+echo $date;
 
 header("Content-Type: text/html; charset=UTF-8");
 
@@ -16,7 +18,7 @@ $num_rows = mysqli_num_rows($result);
 if ($num_rows > 0) {
   // output data of each row
   while($row = mysqli_fetch_assoc($result)) {
-  $name = $row[name];
+    $name = implode($row);
   }
 }
 
