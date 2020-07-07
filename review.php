@@ -126,7 +126,7 @@ include("./src/DB.php");
                 <span class="date">2020.05.21</span>
             </div> -->
             <?php 
-            $sql = "SELECT * FROM review join member on review.id = member.id";
+            $sql = "SELECT * FROM review";
             
             $result = mysqli_query($conn, $sql);
             $num_rows = mysqli_num_rows($result);
@@ -139,7 +139,7 @@ include("./src/DB.php");
                   echo "<img class='profile' src='./images/person.png' alt='프로필 사진' style='width: 100px'>";
                   echo "<span class='date'>".$row["date"]."</span>";
                   echo "<div class='review'>";
-                  echo "<h5 class='name'>".$row['id']."</h5>";
+                  echo "<h5 class='name'>".$row['name']."</h5>";
                   echo "<p class='text'>".$row["text"]."</p>";
                   echo "</div>";
                   echo "</div>";

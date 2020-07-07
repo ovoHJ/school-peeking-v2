@@ -8,7 +8,19 @@ $date = date("Y-m-d");
 
 header("Content-Type: text/html; charset=UTF-8");
 
-$sql = "INSERT INTO review VALUES (0, '$rv_id', '$rv_text', '$date')";
+$sql = "SELECT name from member where id = '$rv_id'";
+
+$result = mysqli_query($conn, $sql);
+$num_rows = mysqli_num_rows($result);
+
+if ($num_rows > 0) {
+  // output data of each row
+  while($row = mysqli_fetch_assoc($result)) {
+  $name = $row[name];
+  }
+}
+
+$sql = "INSERT INTO review VALUES (0, '$name', '$rv_text', '$date')";
 $result = mysqli_query($conn, $sql);
 
 if($result){
