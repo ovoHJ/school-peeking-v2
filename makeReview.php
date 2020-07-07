@@ -4,6 +4,7 @@ include("./src/DB.php");
 
 $rv_id = $_SESSION ['id'];
 $rv_text = trim($_POST['text-review']);
+date_default_timezone_set('Asia/Seoul');
 $date = date_create('now')->format('Y-m-d');
 
 echo $date;
