@@ -30,24 +30,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/grayscale.css" />
     <link rel="stylesheet" href="./css/index.css" />
-
-    <style>
-    	#element_to_pop_up {
-        background-color:#fff;
-        border-radius:15px;
-        color:#000;
-        display:none;
-        padding:20px;
-        min-width:400px;
-        min-height: 180px;
-    	}
-    	.b-close{
-    		cursor:pointer;
-    		position:absolute;
-    		right:10px;
-    		top:5px;
-    	}
-    </style>
+    <link rel="stylesheet" href="./css/video.css" />
 </head>
 <body>
     <!-- Navigation -->
@@ -129,8 +112,11 @@
             </div>
 
             <div id="element_to_pop_up">
-            		<a class="b-close">x<a/>
-            		<iframe width="640" height="360" src="http://www.youtube.com/embed/pPb2lIap6Es?rel=0" frameborder="0" allowfullscreen></iframe>
+                <video width="960" height="720" controls >
+                      <source src="video/ip_video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
             </div>
 
             <div class="section2 row">
@@ -176,32 +162,8 @@
 
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/jquery.bpopup-0.10.0.min.js"></script>
+    <script src="js/video.js"></script>
 
-    <script>
-    	 ;(function($) {
-             // DOM Ready
-            $(function() {
-                // Binding a click event
-                // From jQuery v.1.7.0 use .on() instead of .bind()
-                $('#my-button').bind('click', function(e) {
-            var self = $(this) //button
-            , content = $('.content');
-            $('element_to_pop_up').bPopup({
-                onOpen: function() {
-                    content.html(self.data('bpopup') || '');
-                },
-                onClose: function() {
-                    content.empty();
-                }
-            });
-                    // Prevents the default action to be triggered.
-                    e.preventDefault();
-                    // Triggering bPopup when click event is fired
-                    $('#element_to_pop_up').bPopup();
-                });
-            });
-        })(jQuery);
-    </script>
 
 </body>
 </html>

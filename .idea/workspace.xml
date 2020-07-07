@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a0d77d-d0c4-46af-b101-df079e5d8808" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/mypage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery-1.11.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.bpopup-0.10.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roadview.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/video.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grayscale.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grayscale.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/join.php" beforeDir="false" afterPath="$PROJECT_DIR$/join.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mypage.php" beforeDir="false" afterPath="$PROJECT_DIR$/mypage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/review.php" beforeDir="false" afterPath="$PROJECT_DIR$/review.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure.php" beforeDir="false" afterPath="$PROJECT_DIR$/structure.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -106,6 +98,8 @@
       <workItem from="1594068146611" duration="316000" />
       <workItem from="1594074724484" duration="192000" />
       <workItem from="1594099560652" duration="3304000" />
+      <workItem from="1594104437844" duration="917000" />
+      <workItem from="1594107630522" duration="988000" />
     </task>
     <task id="LOCAL-00001" summary="add no css review">
       <created>1591581257277</created>
@@ -163,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591676200386</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Modify index/nav, index/image(foo2), index/video,  mypage, roadview">
+      <created>1594104745507</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594104745507</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,13 +191,14 @@
     <MESSAGE value="add review css" />
     <MESSAGE value="modify review" />
     <MESSAGE value="modify review nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify review nav" />
+    <MESSAGE value="Modify index/nav, index/image(foo2), index/video,  mypage, roadview" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify index/nav, index/image(foo2), index/video,  mypage, roadview" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="747" y="90" key="CommitChangelistDialog2" timestamp="1591676198794">
+    <state x="747" y="0" width="884" height="905" key="CommitChangelistDialog2" timestamp="1594104743830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="747" y="90" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591676198794" />
+    <state x="747" y="0" width="884" height="905" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594104743830" />
     <state x="157" y="35" width="1536" height="861" key="DiffContextDialog" timestamp="1594099698392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -213,18 +215,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591462079149" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594104531942">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594108718149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594104531942" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594108718149" />
     <state x="665" y="310" key="git4idea.merge.GitMergeDialog" timestamp="1591636419368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="310" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591636419368" />
-    <state x="607" y="310" key="git4idea.merge.GitPullDialog" timestamp="1594104536779">
+    <state x="607" y="310" key="git4idea.merge.GitPullDialog" timestamp="1594108708288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="607" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594104536779" />
+    <state x="607" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594108708288" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1594108257577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594108257577" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594103001331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
