@@ -30,17 +30,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.0680409773180024,
-          "pitch": 0.08900824304966903,
+          "yaw": -0.059804523930043985,
+          "pitch": 0.02802931630792216,
           "rotation": 0,
-          "target": "1--"
+          "target": "56--"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1--",
-      "name": "경비실 앞",
+      "id": "1-1---1",
+      "name": "1교무실 앞 복도 1",
       "levels": [
         {
           "tileSize": 256,
@@ -68,1980 +68,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.0827119002100325,
-          "pitch": 0.0820151361292254,
-          "rotation": 0,
-          "target": "2--"
-        },
-        {
-          "yaw": -3.13062025482726,
-          "pitch": 0.3506825518751917,
-          "rotation": 0,
-          "target": "0-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2--",
-      "name": "급식실 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.2216184699795143,
-          "pitch": 0.0941534476633521,
-          "rotation": 0,
-          "target": "3--"
-        },
-        {
-          "yaw": 1.5634073147876144,
-          "pitch": 0.28169539916564545,
-          "rotation": 0,
-          "target": "145--"
-        },
-        {
-          "yaw": -3.1136011042442995,
-          "pitch": 0.4070470056057296,
-          "rotation": 6.283185307179586,
-          "target": "1--"
-        },
-        {
-          "yaw": -1.1029876972176922,
-          "pitch": 0.2787344650876271,
-          "rotation": 18.06415775814132,
-          "target": "16---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3--",
-      "name": "강당 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "yaw": -3.0769405491564292,
-        "pitch": 0.09137629419082316,
-        "fov": 1.3793455132008117
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.50072478906851,
-          "pitch": -0.031025043798440066,
-          "rotation": 0,
-          "target": "4-"
-        },
-        {
-          "yaw": -3.04377666042139,
-          "pitch": 0.10347820094093763,
-          "rotation": 0,
-          "target": "5----"
-        },
-        {
-          "yaw": 0.12914771667705338,
-          "pitch": 0.2820644912532728,
-          "rotation": 0,
-          "target": "2--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-",
-      "name": "강당입구",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.09029787823409308,
-          "pitch": 0.22736099122020903,
-          "rotation": 0,
-          "target": "109--"
-        },
-        {
-          "yaw": 3.0758969580388094,
-          "pitch": 0.5607755368241172,
-          "rotation": 0,
-          "target": "3--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "5----",
-      "name": "별관입구, 매점 가는 계단",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.4800433600569338,
-          "pitch": 0.22662886295348628,
-          "rotation": 0,
-          "target": "3--"
-        },
-        {
-          "yaw": -0.6379969812405282,
-          "pitch": 0.006608935605139976,
-          "rotation": 0,
-          "target": "119--1-3-6---"
-        },
-        {
-          "yaw": -2.1631133335800765,
-          "pitch": 0.050063153253967485,
-          "rotation": 0,
-          "target": "18---"
-        },
-        {
-          "yaw": -2.6676736822139553,
-          "pitch": 0.04945797901082116,
+          "yaw": -2.8399361772906957,
+          "pitch": 0.24747305673259845,
           "rotation": 0.7853981633974483,
-          "target": "30----"
+          "target": "59---"
         },
         {
-          "yaw": 2.764581963375411,
-          "pitch": 0.11074213671684774,
-          "rotation": 11.780972450961727,
-          "target": "6-"
+          "yaw": 0.018204530075006886,
+          "pitch": 0.20502730075539333,
+          "rotation": 0,
+          "target": "2-1---2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "6-",
-      "name": "본관입구",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.9015941388255087,
-          "pitch": 0.17918523549179,
-          "rotation": 0,
-          "target": "5----"
-        },
-        {
-          "yaw": 1.6030898407233378,
-          "pitch": 0.3612450648794301,
-          "rotation": 0,
-          "target": "32----"
-        },
-        {
-          "yaw": 0.0483827804245891,
-          "pitch": 0.2604698152505982,
-          "rotation": 0,
-          "target": "7--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "7--",
-      "name": "중앙 계단",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.6557122423476223,
-          "pitch": 0.044692651475362055,
-          "rotation": 0,
-          "target": "8---"
-        },
-        {
-          "yaw": -3.0525139179686676,
-          "pitch": 0.23809160128507756,
-          "rotation": 0,
-          "target": "6-"
-        },
-        {
-          "yaw": 0.0003165373216518219,
-          "pitch": 0.14387775826937244,
-          "rotation": 0,
-          "target": "11--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "8---",
-      "name": "중앙 계단 위",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "yaw": 0.2015106238837845,
-        "pitch": 0,
-        "fov": 1.3793455132008117
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.2436137211231717,
-          "pitch": 0.5325365728670235,
-          "rotation": 0,
-          "target": "7--"
-        },
-        {
-          "yaw": 1.7316547628437728,
-          "pitch": 0.16657810188365474,
-          "rotation": 0,
-          "target": "159----"
-        },
-        {
-          "yaw": 3.122848066582611,
-          "pitch": 0.21937319200964822,
-          "rotation": 0,
-          "target": "24----"
-        },
-        {
-          "yaw": -1.346251431272714,
-          "pitch": 0.14342037070287716,
-          "rotation": 0,
-          "target": "9---atm-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "9---atm-",
-      "name": "본관 입구 (ATM 쪽)",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.12039190007460299,
-          "pitch": 0.1708409105440012,
-          "rotation": 0,
-          "target": "36--atm--1"
-        },
-        {
-          "yaw": -1.7480546214901196,
-          "pitch": 0.21297524107749588,
-          "rotation": 0,
-          "target": "8---"
-        },
-        {
-          "yaw": 2.056287797360964,
-          "pitch": 0.2742444984598187,
-          "rotation": 0,
-          "target": "10---1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "10---1",
-      "name": "본관 입구 (1층)",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.11627379978618357,
-          "pitch": 0.17230844418641666,
-          "rotation": 0,
-          "target": "9---atm-"
-        },
-        {
-          "yaw": -1.3057186800884946,
-          "pitch": 0.5093358570605986,
-          "rotation": 0,
-          "target": "34---1"
-        },
-        {
-          "yaw": -2.694212191597728,
-          "pitch": 0.44830503063455396,
-          "rotation": 0,
-          "target": "30----"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "11--",
-      "name": "계양대 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 3.1409320011550292,
-          "pitch": 0.15401448333308743,
-          "rotation": 0,
-          "target": "7--"
-        },
-        {
-          "yaw": 0.02128602522397749,
-          "pitch": 0.18573427596991898,
-          "rotation": 0,
-          "target": "12--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "12--",
-      "name": "다목적실 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.4424884914151352,
-          "pitch": 0.27419695021094803,
-          "rotation": 0,
-          "target": "154--"
-        },
-        {
-          "yaw": -3.101529451399511,
-          "pitch": 0.09290307428063471,
-          "rotation": 0,
-          "target": "11--"
-        },
-        {
-          "yaw": -0.0144784823443036,
-          "pitch": 0.20832169267526623,
-          "rotation": 0,
-          "target": "14--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "13---",
-      "name": "다목적실 계단 ",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.7651327028886747,
-          "pitch": 0.26344785572330665,
-          "rotation": 0,
-          "target": "154--"
-        },
-        {
-          "yaw": -2.585835806229902,
-          "pitch": -0.04284769361094831,
-          "rotation": 0,
-          "target": "31----"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "14--",
-      "name": "체육관 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.12782237866024104,
-          "pitch": 0.1170920034881,
-          "rotation": 0,
-          "target": "12--"
-        },
-        {
-          "yaw": 2.309930961620572,
-          "pitch": 0.274274275455177,
-          "rotation": 5.497787143782138,
-          "target": "17---"
-        },
-        {
-          "yaw": -2.8556208390695392,
-          "pitch": 0.13768835717301897,
-          "rotation": 0.7853981633974483,
-          "target": "156--"
-        },
-        {
-          "yaw": -2.011821578959637,
-          "pitch": 0.04035941402232268,
-          "rotation": 7.0685834705770345,
-          "target": "15----"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "15----",
-      "name": "체육관 앞 계단 위",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 3.099374426203461,
-          "pitch": 0.12473146135166147,
-          "rotation": 0,
-          "target": "27---"
-        },
-        {
-          "yaw": -1.2941382439785016,
-          "pitch": 0.13265635892415872,
-          "rotation": 5.497787143782138,
-          "target": "31----"
-        },
-        {
-          "yaw": 0.08178866805181961,
-          "pitch": 0.3089714939366104,
-          "rotation": 0,
-          "target": "14--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "16---",
-      "name": "강당 쪽 운동장",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.3174452007402664,
-          "pitch": 0.11236100528054749,
-          "rotation": 6.283185307179586,
-          "target": "2--"
-        },
-        {
-          "yaw": 1.6163144769059716,
-          "pitch": 0.07665584383130764,
-          "rotation": 0,
-          "target": "17---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "17---",
-      "name": "체육관 쪽 운동장",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.282238920939454,
-          "pitch": 0.14720921642213014,
-          "rotation": 0,
-          "target": "16---"
-        },
-        {
-          "yaw": 2.434598739192346,
-          "pitch": 0.06363588985468738,
-          "rotation": 0.7853981633974483,
-          "target": "14--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "18---",
-      "name": "쓰레기장 가는 길",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.05003450357747141,
-          "pitch": 0.17186431020414616,
-          "rotation": 0,
-          "target": "5----"
-        },
-        {
-          "yaw": -3.1327972251375193,
-          "pitch": -0.08880651988551591,
-          "rotation": 0,
-          "target": "19---2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "19---2",
-      "name": "쓰레기장 가는 길2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.06471416737651836,
-          "pitch": 0.1916264383187496,
-          "rotation": 0,
-          "target": "18---"
-        },
-        {
-          "yaw": -3.1179062521792247,
-          "pitch": 0.03696444848166891,
-          "rotation": 0,
-          "target": "19---2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "20--",
-      "name": "쓰레기장 ",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.015573716314182917,
-          "pitch": 0.15858582939354093,
-          "rotation": 0,
-          "target": "19---2"
-        },
-        {
-          "yaw": 2.812659063012541,
-          "pitch": 0.1603425458499217,
-          "rotation": 4.71238898038469,
-          "target": "21----"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "21----",
-      "name": "정원, 쓰레기장 가는 길",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.9412579087446167,
-          "pitch": 0.400056979205889,
-          "rotation": 7.0685834705770345,
-          "target": "20--"
-        },
-        {
-          "yaw": 3.106817689294325,
-          "pitch": 0.19837203881622756,
-          "rotation": 0,
-          "target": "61-2---"
-        },
-        {
-          "yaw": -1.2678434091226585,
-          "pitch": 0.2937090938803717,
-          "rotation": 0.7853981633974483,
-          "target": "22---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "22---",
-      "name": "정원 가는 길",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.0768022314470453,
-          "pitch": -0.030563041249337175,
-          "rotation": 6.283185307179586,
-          "target": "21----"
-        },
-        {
-          "yaw": 2.9760978923053383,
-          "pitch": 0.18834572529298654,
-          "rotation": 0,
-          "target": "23---"
-        },
-        {
-          "yaw": -1.5870225301109713,
-          "pitch": 0.14315248537687175,
-          "rotation": 0,
-          "target": "27---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "23---",
-      "name": "연못 앞 정원",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.6294200848832787,
-          "pitch": 0.11710757826556772,
-          "rotation": 0,
-          "target": "24----"
-        },
-        {
-          "yaw": 1.5534999428265026,
-          "pitch": 0.18966738790417814,
-          "rotation": 0,
-          "target": "22---"
-        },
-        {
-          "yaw": -0.8085060613564767,
-          "pitch": 0.16709813632894566,
-          "rotation": 0.7853981633974483,
-          "target": "25--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "24----",
-      "name": "중앙 계단 앞 정원",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.14725869962251714,
-          "pitch": 0.15728387863091697,
-          "rotation": 0,
-          "target": "8---"
-        },
-        {
-          "yaw": -2.8794345580536778,
-          "pitch": 0.104921767231966,
-          "rotation": 0,
-          "target": "23---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "25--",
-      "name": "정원 중앙",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.17342526264703295,
-          "pitch": 0.14050591672283197,
-          "rotation": 0,
-          "target": "23---"
-        },
-        {
-          "yaw": -2.127876661459794,
-          "pitch": 0.17247317482337543,
-          "rotation": 5.497787143782138,
-          "target": "26----"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "26----",
-      "name": "정원 중앙 옆 ",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.01678155563736894,
-          "pitch": 0.15081428206506686,
-          "rotation": 5.497787143782138,
-          "target": "27---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "27---",
-      "name": "미림여고 앞 정원",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.6714360960142027,
-          "pitch": 0.15535371624305583,
-          "rotation": 0,
-          "target": "15----"
-        },
-        {
-          "yaw": -3.08992066507016,
-          "pitch": 0.14118738884504722,
-          "rotation": 0,
-          "target": "22---"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.12806164077545112,
-          "pitch": -0.15593715566308575,
-          "title": "미림여고",
-          "text": "같은 재단의 일반계 고등학교."
-        }
-      ]
-    },
-    {
-      "id": "28---",
-      "name": "매점 연결 통로",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.12809253747601446,
-          "pitch": 0.10256303997296534,
-          "rotation": 0,
-          "target": "29----"
-        },
-        {
-          "yaw": -2.7834035758279807,
-          "pitch": 0.2859895371162615,
-          "rotation": 0.7853981633974483,
-          "target": "30----"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "29----",
-      "name": "매점 연결 통로 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.06314975921809918,
-          "pitch": 0.2504092253516532,
-          "rotation": 0,
-          "target": "130--"
-        },
-        {
-          "yaw": -3.094906846923651,
-          "pitch": 0.2232104770605865,
-          "rotation": 0,
-          "target": "28---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "30----",
-      "name": "매점 가는 계단 위",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.31405961568873053,
-          "pitch": 0.4288499258532781,
-          "rotation": 0,
-          "target": "5----"
-        },
-        {
-          "yaw": 0.9735338835593268,
-          "pitch": 0.3508325595393913,
-          "rotation": 5.497787143782138,
-          "target": "28---"
-        },
-        {
-          "yaw": -2.835662107071352,
-          "pitch": 0.42624826354382606,
-          "rotation": 0,
-          "target": "10---1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "31----",
-      "name": "휴게장소, 다목적실 계단 입구",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.03595900325346513,
-          "pitch": 0.08814560274649352,
-          "rotation": 0,
-          "target": "15----"
-        },
-        {
-          "yaw": 1.2626526034117411,
-          "pitch": 0.2908575519758738,
-          "rotation": 0,
-          "target": "13---"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 2.9715956984672482,
-          "pitch": 0.05734871354923676,
-          "title": "미림 역사관 (사진 준비중)",
-          "text": "미림여고 개교 40주년을 맞아 지어진 미림 역사관. 미림여고와 미림여자정보과학고의 역사를 볼 수 있다."
-        }
-      ]
-    },
-    {
-      "id": "32----",
-      "name": "본관  입구 내부",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.3758627521767028,
-          "pitch": 0.040036469707068534,
-          "rotation": 0,
-          "target": "33--1--"
-        },
-        {
-          "yaw": 2.9134186026542093,
-          "pitch": 0.3456664802687097,
-          "rotation": 0,
-          "target": "6-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "33--1--",
-      "name": "본관 1층 연결 계단",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.9709392289043706,
-          "pitch": 0.44007777419629157,
-          "rotation": 0,
-          "target": "32----"
-        },
-        {
-          "yaw": 1.4839147475259677,
-          "pitch": 0.049506793773460345,
-          "rotation": 0,
-          "target": "34---1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "34---1",
-      "name": "본관 계단 1층",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.25553556426060453,
-          "pitch": 0.5734695999265274,
-          "rotation": 0,
-          "target": "33--1--"
-        },
-        {
-          "yaw": -0.26412555923901593,
-          "pitch": -0.06946422724587187,
-          "rotation": 0,
-          "target": "37---atm---1-2-"
-        },
-        {
-          "yaw": -2.9542842567841117,
-          "pitch": 0.6905007759561812,
-          "rotation": 0,
-          "target": "10---1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "35---1-2-",
-      "name": "본관 계단 1층 2층 사이",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.13126019720042947,
-          "pitch": 0.6794975401303311,
-          "rotation": 0,
-          "target": "34---1"
-        },
-        {
-          "yaw": -0.33122553350877837,
-          "pitch": 0.0037054888634244776,
-          "rotation": 6.283185307179586,
-          "target": "38---2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "36--atm--1",
-      "name": "본관 (ATM 쪽) 1층",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.045192955503269516,
-          "pitch": 0.06010322088048525,
-          "rotation": 0,
-          "target": "37---atm---1-2-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.8230863554450885,
-          "pitch": 0.025216819309537897,
-          "title": "도서관",
-          "text": "미림여자정보과학고등학교의 도서관. 다양한 책과 전공 서적을 보고 빌릴 수 있다. 점심시간에만 연다."
-        }
-      ]
-    },
-    {
-      "id": "37---atm---1-2-",
-      "name": "본관 계단 (ATM 쪽)  1층 2층 사이",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.9310459620965688,
-          "pitch": 0.3570901595236986,
-          "rotation": 0,
-          "target": "36--atm--1"
-        },
-        {
-          "yaw": 2.935705704834991,
-          "pitch": -0.20878687270188045,
-          "rotation": 0,
-          "target": "56--atm--2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "38---2",
-      "name": "본관 계단 2층",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.2854552537043098,
-          "pitch": 0.6522052582138418,
-          "rotation": 0,
-          "target": "35---1-2-"
-        },
-        {
-          "yaw": -0.3284293849716633,
-          "pitch": -0.015065730646238507,
-          "rotation": 0,
-          "target": "62--3"
-        },
-        {
-          "yaw": 2.962569582706461,
-          "pitch": 0.6200783928392255,
-          "rotation": 0,
-          "target": "39--2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "39--2",
-      "name": "본관 2층",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 3.0659366329852604,
-          "pitch": 0.6316326546846192,
-          "rotation": 0,
-          "target": "38---2"
-        },
-        {
-          "yaw": -1.6136368728393435,
-          "pitch": 0.40942497073991646,
-          "rotation": 0,
-          "target": "48--"
-        },
-        {
-          "yaw": 1.54288003446913,
-          "pitch": 0.21300477435687526,
-          "rotation": 0,
-          "target": "40---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "40---",
-      "name": "교장실 앞 복도",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.06079002930733779,
-          "pitch": 0.26232663425267155,
-          "rotation": 0,
-          "target": "41-1--"
-        },
-        {
-          "yaw": -3.1152683080284174,
-          "pitch": 0.30117137383379067,
-          "rotation": 0,
-          "target": "39--2"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 2.496150222291493,
-          "pitch": -0.1494326606933729,
-          "title": "교장실",
-          "text": "미림여자정보과학고등학교 교장실"
-        }
-      ]
-    },
-    {
-      "id": "41-1--",
-      "name": "1교무실 앞 모퉁이",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.8625150046871415,
-          "pitch": 0.3023744198937717,
-          "rotation": 5.497787143782138,
-          "target": "42-1--"
-        },
-        {
-          "yaw": -3.0373187047467383,
-          "pitch": 0.29320555318134467,
-          "rotation": 0,
-          "target": "40---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "42-1--",
-      "name": "1교무실 앞 복도",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.014727264308557864,
-          "pitch": 0.19766807097845884,
-          "rotation": 0,
-          "target": "43-1---2"
-        },
-        {
-          "yaw": -2.841052094786047,
-          "pitch": 0.303846960557161,
-          "rotation": 0.7853981633974483,
-          "target": "41-1--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "43-1---2",
+      "id": "2-1---2",
       "name": "1교무실 앞 복도 2",
       "levels": [
         {
@@ -2070,22 +112,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.04932241158020112,
-          "pitch": 0.27822106013856107,
+          "yaw": -3.124794453916449,
+          "pitch": 0.16670254693000786,
           "rotation": 0,
-          "target": "44-1"
+          "target": "1-1---1"
         },
         {
-          "yaw": -3.134285123272905,
-          "pitch": 0.20167767147540516,
+          "yaw": 0.0716170209720488,
+          "pitch": 0.271806333117798,
           "rotation": 0,
-          "target": "43-1---2"
+          "target": "3-1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "44-1",
+      "id": "3-1",
       "name": "1교무실",
       "levels": [
         {
@@ -2114,30 +156,30 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -3.1264233402078396,
-          "pitch": 0.13220783702286454,
+          "yaw": -3.122455537382292,
+          "pitch": 0.20010179703415787,
           "rotation": 0,
-          "target": "43-1---2"
+          "target": "2-1---2"
         },
         {
-          "yaw": 0.48976175105876685,
-          "pitch": 0.47465840697068806,
+          "yaw": 0.5156565182691306,
+          "pitch": 0.4796421193261011,
           "rotation": 0.7853981633974483,
-          "target": "45---"
+          "target": "87----1"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.4045546261169868,
-          "pitch": -0.12442815291804976,
+          "yaw": 2.1766599077792446,
+          "pitch": -0.13119188124812098,
           "title": "1교무실",
-          "text": "<div>교감선생님<br></div><div><br></div>교무기획부<div><br></div><div>이철호 선생님, 이호연 선생님, 우호식 선생님, 권지웅 선생님, 김윤환 선생님, 유병석 선생님, 박진형 선생님</div><div><br></div><div>교육연구부</div><div><br></div><div>김지훈 선생님, 김영철 선생님, 송민정 선생님, 권오재 선생님, 최정아 선생님, 김민혜 선생님, 최영진 선생님, 이형섭 선생님</div>"
+          "text": "이철호 선생님, 이호연 선생님, 우호식 선생님 등 교무기획부 선생님들이 계시는 곳입니다.<div><br></div><div><br><div>김지훈 선생님, 김영철 선생님, 최영진 선생님 등 교육연구부 선생님들이 계시는 곳입니다.</div><div><br></div></div>"
         }
       ]
     },
     {
-      "id": "45---",
-      "name": "별관 가는 길",
+      "id": "4-1-atm-",
+      "name": "1층 ATM기 앞",
       "levels": [
         {
           "tileSize": 256,
@@ -2165,23 +207,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.18862384193051973,
-          "pitch": 0.3592107913483975,
+          "yaw": 0.0373028378979523,
+          "pitch": 0.028667360345149717,
           "rotation": 0,
-          "target": "46----2"
+          "target": "46-atm--1-2-"
         },
         {
-          "yaw": 2.8883657541017307,
-          "pitch": 0.42032748021457067,
-          "rotation": 5.497787143782138,
-          "target": "44-1"
+          "yaw": 3.0907049258901456,
+          "pitch": 0.21335751281830184,
+          "rotation": 0,
+          "target": "45-atm--"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "46----2",
-      "name": "별관 가는 길 2",
+      "id": "5-1-1-",
+      "name": "1학년 1반 앞",
       "levels": [
         {
           "tileSize": 256,
@@ -2209,212 +251,243 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.10924544646011292,
-          "pitch": 0.26034795333885086,
+          "yaw": -1.7782232842022339,
+          "pitch": 0.5093447435813072,
           "rotation": 0,
-          "target": "46----2"
+          "target": "6-1-1"
         },
         {
-          "yaw": 3.044335475499418,
-          "pitch": 0.43833833107864706,
+          "yaw": -0.06790191406858526,
+          "pitch": 0.18601796023565242,
+          "rotation": 0,
+          "target": "8-1-2-"
+        },
+        {
+          "yaw": 2.6446034846952635,
+          "pitch": 0.44072516594917666,
+          "rotation": 0,
+          "target": "145---4"
+        },
+        {
+          "yaw": -2.8997565395460256,
+          "pitch": 0.47298868173370856,
+          "rotation": 1.5707963267948966,
+          "target": "82--"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.4150160961445266,
+          "pitch": 0.02985460205018242,
+          "title": "1-1",
+          "text": "뉴미디어소프트웨어과<div><br></div><div>담임 선생님 : 이호걸 선생님</div><div>부담임 선생님 : 민주리 선생님</div><div><br></div><div>*교실 위치 변동 이전 사진입니다.</div>"
+        }
+      ]
+    },
+    {
+      "id": "6-1-1",
+      "name": "1학년 1반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-1-2",
+      "name": "1학년 2반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.3341243174703417,
+          "pitch": 0.07168919927826423,
+          "rotation": 0,
+          "target": "8-1-2-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "8-1-2-",
+      "name": "1학년 2반 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.2260594230157515,
+          "pitch": 0.2540389299243664,
+          "rotation": 1.5707963267948966,
+          "target": "49-atm--3-as-"
+        },
+        {
+          "yaw": 0.021607857294203114,
+          "pitch": 0.12843766471896778,
+          "rotation": 0,
+          "target": "9-1-3-2-3-"
+        },
+        {
+          "yaw": -3.124498272293714,
+          "pitch": 0.24014062584996232,
+          "rotation": 0,
+          "target": "5-1-1-"
+        },
+        {
+          "yaw": 2.5585754408750834,
+          "pitch": 0.40546821218331175,
+          "rotation": 4.71238898038469,
+          "target": "7-1-2"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.4568547246891796,
+          "pitch": -0.0942285658592823,
+          "title": "1-2",
+          "text": "뉴미디어소프트웨어과<div><br></div><div>담임 선생님 : 최정아 선생님</div><div>부담임 선생님 : 이은주 선생님</div><div><br></div><div>* 교실 위치 변동 이전 사진입니다.</div>"
+        }
+      ]
+    },
+    {
+      "id": "9-1-3-2-3-",
+      "name": "1학년 3반, 2학년 3반 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.117006680388699,
+          "pitch": 0.26737697830683516,
+          "rotation": 0,
+          "target": "8-1-2-"
+        },
+        {
+          "yaw": 1.264282506941326,
+          "pitch": 0.4097875578493735,
           "rotation": 0.7853981633974483,
-          "target": "45---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "47----3",
-      "name": "별관 가는 길 3",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "target": "10-1-3"
         },
         {
-          "tileSize": 512,
-          "size": 512
+          "yaw": -0.5365619669460884,
+          "pitch": 0.3843980673645788,
+          "rotation": 5.497787143782138,
+          "target": "23-2-3"
         },
         {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.02025315587552967,
-          "pitch": 0.2771150563999676,
-          "rotation": 6.283185307179586,
-          "target": "132---2"
-        },
-        {
-          "yaw": 2.988407047063964,
-          "pitch": 0.3185164816204473,
+          "yaw": -0.024550803908798713,
+          "pitch": 0.1476585487727391,
           "rotation": 0,
-          "target": "46----2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "48--",
-      "name": "행정실 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.7077819439695023,
-          "pitch": 0.3457891579199135,
-          "rotation": 0,
-          "target": "39--2"
-        },
-        {
-          "yaw": 0.10499691682231038,
-          "pitch": 0.6000187536242194,
-          "rotation": 0,
-          "target": "52-3--"
-        },
-        {
-          "yaw": -1.5327787276228797,
-          "pitch": 0.2835433284168065,
-          "rotation": 0,
-          "target": "49--2----"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "49--2----",
-      "name": "기숙사 2층 연결 통로 복도 ",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.030922233702710855,
-          "pitch": 0.1974753956800761,
-          "rotation": 0,
-          "target": "48--"
-        },
-        {
-          "yaw": 3.0658607504727193,
-          "pitch": 0.2657786630375245,
-          "rotation": 0,
-          "target": "50----2----2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "50----2----2",
-      "name": "미림여고 교장실, 기숙사 2층 연결 통로 복도 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.007056301896797734,
-          "pitch": 0.17609018284525746,
-          "rotation": 0,
-          "target": "49--2----"
-        },
-        {
-          "yaw": 3.124506688688392,
-          "pitch": 0.139484621422163,
-          "rotation": 0,
-          "target": "51---2----3"
+          "target": "11-1-4-2-4-"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.42186255381149707,
-          "pitch": -0.07576711195630992,
-          "title": "미림여고 교장실",
-          "text": "미림여자고등학교의 교장실"
+          "yaw": 1.5576116007417262,
+          "pitch": -0.12097727136302439,
+          "title": "1-3",
+          "text": "뉴미디어웹솔루션과<div><br></div><div>담임 선생님 : 김보경 선생님</div><div>부담임 선생님 : 백현정 선생님</div><div><br></div><div>* 교실 위치 변동 이전 사진입니다.</div>"
+        },
+        {
+          "yaw": -0.5869635340510762,
+          "pitch": -0.08549454705427095,
+          "title": "2-3",
+          "text": "뉴미디어웹솔루션과<div><br></div><div>담임 선생님 : 권지웅 선생님</div><div>부담임 선생님 : 이대형 선생님</div><div><br></div><div>* 교실 위치 변동 이전 사진입니다.</div>"
         }
       ]
     },
     {
-      "id": "51---2----3",
-      "name": "대외협력실, 기숙사 2층 연결 통로 복도 3",
+      "id": "10-1-3",
+      "name": "1학년 3반",
       "levels": [
         {
           "tileSize": 256,
@@ -2442,23 +515,837 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.016028533946883528,
-          "pitch": 0.059114807708606776,
+          "yaw": -0.9365940625891831,
+          "pitch": 0.208509623189002,
+          "rotation": 5.497787143782138,
+          "target": "9-1-3-2-3-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "11-1-4-2-4-",
+      "name": "1학년 4반, 2학년 4반 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.053758777311643,
+          "pitch": 0.22963279758727495,
           "rotation": 0,
-          "target": "50----2----2"
+          "target": "9-1-3-2-3-"
+        },
+        {
+          "yaw": 1.3416364447843492,
+          "pitch": 0.42023946247798705,
+          "rotation": 0.7853981633974483,
+          "target": "12-1-4"
+        },
+        {
+          "yaw": 0.0494803974596465,
+          "pitch": 0.17640322995305446,
+          "rotation": 0,
+          "target": "19-2-1-"
+        },
+        {
+          "yaw": -0.4580764929066312,
+          "pitch": 0.40390007053821364,
+          "rotation": 5.497787143782138,
+          "target": "24-2-4"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 3.0816428078962623,
-          "pitch": 0.07771146950265084,
-          "title": "기숙사 2층 연결 통로",
-          "text": "기숙사 2층 계단으로 연결됩니다.<div>평상시에는 학생 사용 금지입니다.</div>"
+          "yaw": 1.6343252522587877,
+          "pitch": -0.17419625134001038,
+          "title": "1-4",
+          "text": "뉴미디어웹솔루션과<div><br></div><div>담임 선생님 : 이호연 선생님</div><div>부담임 선생님 : 김지훈 선생님</div><div><br></div><div>* 교실 위치 변동 이전 사진입니다.</div>"
+        },
+        {
+          "yaw": -0.5670562428647337,
+          "pitch": -0.0352258620189172,
+          "title": "2-4",
+          "text": "뉴미디어웹솔루션과<div><br></div><div>담임 선생님 : 박지우 선생님</div><div>부담임 선생님 : 이형섭 선생님</div><div><br></div><div>* 교실 위치 변동 이전 사진입니다.</div>"
         }
       ]
     },
     {
-      "id": "52-3--",
+      "id": "12-1-4",
+      "name": "1학년 4반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "13-1-5-",
+      "name": "1학년 5반 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.608026323199792,
+          "pitch": 0.42469765391495784,
+          "rotation": 0,
+          "target": "14-1-5"
+        },
+        {
+          "yaw": 3.052581082094294,
+          "pitch": 0.3676906236641351,
+          "rotation": 4.71238898038469,
+          "target": "145---4"
+        },
+        {
+          "yaw": 0.1522822688494827,
+          "pitch": 0.22598325223201599,
+          "rotation": 0,
+          "target": "15-1-6-"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.1380436600541497,
+          "pitch": -0.1322434958627774,
+          "title": "1-5",
+          "text": "뉴미디어디자인과<div><br></div><div>담임 선생님 : 김윤환선생님</div><div>부담임 선생님 : 김철호 선생님</div><div><br></div><div>* 교실 위치 변동 이전 사진입니다.</div>"
+        }
+      ]
+    },
+    {
+      "id": "14-1-5",
+      "name": "1학년 5반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.296392355596261,
+          "pitch": 0.2346022424228913,
+          "rotation": 0.7853981633974483,
+          "target": "13-1-5-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "15-1-6-",
+      "name": "1학년 6반 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.364885908160911,
+          "pitch": 0.27894179398301056,
+          "rotation": 0.7853981633974483,
+          "target": "16-1-6"
+        },
+        {
+          "yaw": 0.6643604106754069,
+          "pitch": 0.33170343742072816,
+          "rotation": 5.497787143782138,
+          "target": "110-1-"
+        },
+        {
+          "yaw": -3.0763892460510114,
+          "pitch": 0.2006638880742404,
+          "rotation": 0,
+          "target": "13-1-5-"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.1857383608388954,
+          "pitch": 0.004133639699908542,
+          "title": "1-6",
+          "text": "뉴미디어디자인과<div><br></div><div>담임 선생님 : 이하얀 선생님</div><div>부담임 선생님 : 김영철 선생님</div><div><br></div><div>* 교실 위치 변동 이전 사진입니다.</div>"
+        }
+      ]
+    },
+    {
+      "id": "16-1-6",
+      "name": "1학년 6반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.2519428288463548,
+          "pitch": 0.07725523981221727,
+          "rotation": 0.7853981633974483,
+          "target": "15-1-6-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "17-2",
+      "name": "2교무실",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.97649275998133,
+          "pitch": 0.326842523170896,
+          "rotation": 0.7853981633974483,
+          "target": "48-atm--2"
+        },
+        {
+          "yaw": -1.6551687839226634,
+          "pitch": 0.14946757573298086,
+          "rotation": 0,
+          "target": "109--"
+        },
+        {
+          "yaw": 1.4522979093589807,
+          "pitch": 0.1499330297977295,
+          "rotation": 0,
+          "target": "29-3--"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.23676949129226976,
+          "pitch": -0.03389165648959036,
+          "title": "2교무실",
+          "text": "박향규 선생님, 최규정 선생님, 이하얀 선생님 등 학생안전복지부 선생님들이 계십니다."
+        }
+      ]
+    },
+    {
+      "id": "18-2----",
+      "name": "2층 복도 끝 계단 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "19-2-1-",
+      "name": "2학년 1반 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.3184115058812829,
+          "pitch": 0.5293267386275655,
+          "rotation": 0.7853981633974483,
+          "target": "20-2-1"
+        },
+        {
+          "yaw": 3.0935610543702,
+          "pitch": 0.2613575194578832,
+          "rotation": 0,
+          "target": "11-1-4-2-4-"
+        },
+        {
+          "yaw": -0.03848426416085182,
+          "pitch": 0.14014685896854928,
+          "rotation": 0,
+          "target": "21-2-2-"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.7024519764801562,
+          "pitch": -0.0994260588197502,
+          "title": "2-1",
+          "text": "뉴미디어소프트웨어과<div><br></div><div>담임 선생님 : 우호식 선생님</div><div>부담임 선생님 : 신혜정 선생님</div><div><br></div><div>* 교실 위치 변동 이전 사진입니다.</div>"
+        }
+      ]
+    },
+    {
+      "id": "20-2-1",
+      "name": "2학년 1반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.27390250683448,
+          "pitch": 0.16295499377604017,
+          "rotation": 5.497787143782138,
+          "target": "19-2-1-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "21-2-2-",
+      "name": "2학년 2반 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.4928225824507333,
+          "pitch": 0.5686817725816304,
+          "rotation": 0.7853981633974483,
+          "target": "22-2-2"
+        },
+        {
+          "yaw": -3.0569635817902885,
+          "pitch": 0.22424564525383772,
+          "rotation": 0,
+          "target": "19-2-1-"
+        },
+        {
+          "yaw": 0.6015855041207363,
+          "pitch": 0.2824950750798827,
+          "rotation": 0.7853981633974483,
+          "target": "31-3----"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.9065504021259656,
+          "pitch": -0.11996949243313537,
+          "title": "2-2",
+          "text": "뉴미디어소프트웨어과<div><br></div><div>담임 선생님 : 유병석 선생님</div><div>부담임 선생님 : 윤성웅 선생님</div><div><br></div><div>* 교실 위치 변동 이전 사진입니다.</div>"
+        }
+      ]
+    },
+    {
+      "id": "22-2-2",
+      "name": "2학년 2반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.3364828554849506,
+          "pitch": 0.15679000914799346,
+          "rotation": 5.497787143782138,
+          "target": "21-2-2-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "23-2-3",
+      "name": "2학년 3반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.2916615095719663,
+          "pitch": 0.10918001460182936,
+          "rotation": 5.497787143782138,
+          "target": "9-1-3-2-3-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "24-2-4",
+      "name": "2학년 4반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.278467236690176,
+          "pitch": 0.04940700632958972,
+          "rotation": 4.71238898038469,
+          "target": "11-1-4-2-4-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "25-2-5-",
+      "name": "2학년 5반 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.6480889580849123,
+          "pitch": 0.40546707052782693,
+          "rotation": 0,
+          "target": "26-2-5"
+        },
+        {
+          "yaw": 0.010907917166276704,
+          "pitch": 0.23571964918303046,
+          "rotation": 0,
+          "target": "27-2-6-"
+        },
+        {
+          "yaw": -3.0830243625334184,
+          "pitch": 0.18006612695884172,
+          "rotation": 0,
+          "target": "44-4-"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -2.111775801533337,
+          "pitch": -0.11157712286944843,
+          "title": "2-5",
+          "text": "<div>뉴미디어 디자인과</div><div><br></div>담임 선생님 : 정혜선 선생님<div>부담임 선생님 : 장민주 선생님</div>"
+        }
+      ]
+    },
+    {
+      "id": "26-2-5",
+      "name": "2학년 5반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.222443148729491,
+          "pitch": 0.17251833520289672,
+          "rotation": 0.7853981633974483,
+          "target": "25-2-5-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "27-2-6-",
+      "name": "2학년 6반 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.050604892019189,
+          "pitch": 0.5693971527102697,
+          "rotation": 0,
+          "target": "28-2-6"
+        },
+        {
+          "yaw": -2.9487499075661248,
+          "pitch": 0.14201788695517337,
+          "rotation": 0,
+          "target": "25-2-5-"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.3738872224508167,
+          "pitch": 0.0887121654766716,
+          "title": "2-6",
+          "text": "뉴미디어디자인과<div><br></div><div>담임 선생님 : 김명준 선생님</div><div>부담임 선생님 : 정하나 선생님</div>"
+        }
+      ]
+    },
+    {
+      "id": "28-2-6",
+      "name": "2학년 6반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "29-3--",
       "name": "3교무실, 남교사 휴게실",
       "levels": [
         {
@@ -2487,30 +1374,30 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.18033732375057987,
-          "pitch": 0.4923551502425738,
+          "yaw": 0.30662755351203685,
+          "pitch": 0.48607066115008735,
           "rotation": 0,
-          "target": "48--"
+          "target": "158--"
         },
         {
-          "yaw": -2.94629126393672,
-          "pitch": 0.13101446898586389,
+          "yaw": -2.9030543493586425,
+          "pitch": 0.1801080528283805,
           "rotation": 0,
-          "target": "55-2---atm--"
+          "target": "17-2"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 2.2012185600762706,
-          "pitch": -0.35868095978118575,
+          "yaw": 1.8237991779293772,
+          "pitch": 0.020907697341581155,
           "title": "3교무실",
-          "text": "마이스터고 기획부<div><br></div><div>민주리 선생님, 함기훈 선생님, 이종태 선생님, 이호걸 선생님, 신혜정 선생님, 백현정 선생님, 김보경 선생님, 박지우 선생님, 장민주 선생님</div>"
+          "text": "민주리 선생님, 백현정 선생님, 함기훈 선생님 등 마이스터고기획부 선생님들이 계십니다."
         }
       ]
     },
     {
-      "id": "53--",
-      "name": "수준별교실 앞",
+      "id": "30-3-atm---",
+      "name": "3층 ATM기 쪽 계단 앞",
       "levels": [
         {
           "tileSize": 256,
@@ -2538,29 +1425,29 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.4041890149016947,
-          "pitch": 0.3951687044507395,
+          "yaw": 3.0565121131143105,
+          "pitch": 0.20549628542043408,
           "rotation": 0,
-          "target": "54-"
+          "target": "127----01-02-"
         },
         {
-          "yaw": -0.033006783735357814,
-          "pitch": 0.13782973663301945,
-          "rotation": 0,
-          "target": "59----"
+          "yaw": -1.4293631458879297,
+          "pitch": 0.3738648528907227,
+          "rotation": 0.7853981633974483,
+          "target": "49-atm--3-as-"
         },
         {
-          "yaw": 3.1239614679662093,
-          "pitch": 0.13831787975528442,
+          "yaw": -0.056744483248790445,
+          "pitch": 0.22682458805779326,
           "rotation": 0,
-          "target": "55-2---atm--"
+          "target": "106-----"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "54-",
-      "name": "수준별교실",
+      "id": "31-3----",
+      "name": "3층 복도 끝 계단 앞",
       "levels": [
         {
           "tileSize": 256,
@@ -2588,8 +1475,1117 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.6581437449012597,
-          "pitch": 0.24557394520215858,
+          "yaw": 1.5649664373653032,
+          "pitch": 0.5019923383267209,
+          "rotation": 5.497787143782138,
+          "target": "18-2----"
+        },
+        {
+          "yaw": -3.1173210331522903,
+          "pitch": 0.18256235043115687,
+          "rotation": 0,
+          "target": "132----04-"
+        },
+        {
+          "yaw": 1.709822005625151,
+          "pitch": 0.054876667529466516,
+          "rotation": 6.283185307179586,
+          "target": "21-2-2-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "32-3-1-",
+      "name": "3학년 1반 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.11168059941554631,
+          "pitch": 0.20748432403666683,
+          "rotation": 0,
+          "target": "34-3-2-"
+        },
+        {
+          "yaw": 1.7049571023268753,
+          "pitch": 0.42291509021932505,
+          "rotation": 0,
+          "target": "33-3-1"
+        },
+        {
+          "yaw": -2.913332890795946,
+          "pitch": 0.26228745878661286,
+          "rotation": 0,
+          "target": "91---2"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.1298980276819144,
+          "pitch": -0.16684375827428077,
+          "title": "3-1",
+          "text": "뉴미디어소프트웨어과<div><br></div><div>담임 선생님 : 최규정 선생님</div><div>부담임 선생님 : 이정임 선생님</div>"
+        }
+      ]
+    },
+    {
+      "id": "33-3-1",
+      "name": "3학년 1반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.108427006395681,
+          "pitch": 0.09820310502950313,
+          "rotation": 0.7853981633974483,
+          "target": "32-3-1-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "34-3-2-",
+      "name": "3학년 2반 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.7042003575972,
+          "pitch": 0.4648681756813513,
+          "rotation": 6.283185307179586,
+          "target": "35-3-2"
+        },
+        {
+          "yaw": 0.10139486282679577,
+          "pitch": 0.25439547769226856,
+          "rotation": 0,
+          "target": "121--"
+        },
+        {
+          "yaw": -3.025568217658714,
+          "pitch": 0.2571044786417218,
+          "rotation": 0,
+          "target": "32-3-1-"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.210983326186934,
+          "pitch": -0.1595841775417437,
+          "title": "3-2",
+          "text": "뉴미디어소프트웨어과<div><br></div><div>담임 선생님 : 박성래 선생님</div><div>부담임 선생님 : 함기훈 선생님</div>"
+        }
+      ]
+    },
+    {
+      "id": "35-3-2",
+      "name": "3학년 2반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.244397261646169,
+          "pitch": 0.09268335630954283,
+          "rotation": 0.7853981633974483,
+          "target": "34-3-2-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "36-3-3-",
+      "name": "3학년 3반 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.32558425944492697,
+          "pitch": 0.40089639612055805,
+          "rotation": 5.497787143782138,
+          "target": "96-----2"
+        },
+        {
+          "yaw": 1.6848980070155317,
+          "pitch": 0.5739590026768013,
+          "rotation": 0,
+          "target": "37-3-3"
+        },
+        {
+          "yaw": -3.0372853890977076,
+          "pitch": 0.23647509889503304,
+          "rotation": 0,
+          "target": "121--"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.119286238156059,
+          "pitch": -0.25205067809460147,
+          "title": "3-3",
+          "text": "뉴미디어웹솔루션과<div><br></div><div>담임 선생님 : 임정훈 선생님</div><div>부담임 선생님 : 윤선희 선생님</div>"
+        }
+      ]
+    },
+    {
+      "id": "37-3-3",
+      "name": "3학년 3반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.15807038805254,
+          "pitch": 0.17487081525259107,
+          "rotation": 0.7853981633974483,
+          "target": "36-3-3-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "38-3-4-",
+      "name": "3학년 4반 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.5328426614022472,
+          "pitch": 0.3270039773988369,
+          "rotation": 4.71238898038469,
+          "target": "94---1"
+        },
+        {
+          "yaw": 1.5777443093032186,
+          "pitch": 0.5575897552422813,
+          "rotation": 0,
+          "target": "39-3-4"
+        },
+        {
+          "yaw": 3.1219099491064055,
+          "pitch": 0.15278118845630928,
+          "rotation": 0,
+          "target": "40-3-5--"
+        },
+        {
+          "yaw": -0.07375136118067438,
+          "pitch": 0.24450372043506263,
+          "rotation": 0,
+          "target": "43-3----"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.107428418136994,
+          "pitch": -0.1386129070682003,
+          "title": "3-4",
+          "text": "뉴미디어웹솔루션과<div><br></div><div>담임 선생님 : 최영진 선생님</div><div>부담임 선생님 : 이세호 선생님</div>"
+        }
+      ]
+    },
+    {
+      "id": "39-3-4",
+      "name": "3학년 4반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.8965050473559444,
+          "pitch": 0.19866623135724915,
+          "rotation": 0.7853981633974483,
+          "target": "38-3-4-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "40-3-5--",
+      "name": "3학년 5반, 코워킹스페이스 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.6354667201553452,
+          "pitch": 0.3865630556647872,
+          "rotation": 0,
+          "target": "41-3-5"
+        },
+        {
+          "yaw": -3.084499285918234,
+          "pitch": 0.12177382835982797,
+          "rotation": 0,
+          "target": "72----3-6-"
+        },
+        {
+          "yaw": -0.12330705465475233,
+          "pitch": 0.30244567815188006,
+          "rotation": 4.71238898038469,
+          "target": "154-"
+        },
+        {
+          "yaw": 0.06782756250538924,
+          "pitch": 0.21136947239238602,
+          "rotation": 0,
+          "target": "38-3-4-"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.0261731353584587,
+          "pitch": -0.18308582400271867,
+          "title": "3-5",
+          "text": "뉴미디어디자인과<div><br></div><div>담임 선생님 : 고낙은 선생님</div><div>부담임 선생님 : 김종성 선생님</div>"
+        }
+      ]
+    },
+    {
+      "id": "41-3-5",
+      "name": "3학년 5반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.164114868879981,
+          "pitch": 0.15708574337254788,
+          "rotation": 0.7853981633974483,
+          "target": "40-3-5--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "42-3-6",
+      "name": "3학년 6반",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.1226678107306114,
+          "pitch": 0.19280136835119954,
+          "rotation": 0.7853981633974483,
+          "target": "72----3-6-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "43-3----",
+      "name": "3학년 교실 쪽 강당 통로",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.1264701201180216,
+          "pitch": 0.28108139324002046,
+          "rotation": 0,
+          "target": "38-3-4-"
+        },
+        {
+          "yaw": 0.10655283491167289,
+          "pitch": 0.6001599287164794,
+          "rotation": 0,
+          "target": "55-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "44-4-",
+      "name": "4교무실 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.17559406272180844,
+          "pitch": 0.26125636535008745,
+          "rotation": 0,
+          "target": "25-2-5-"
+        },
+        {
+          "yaw": -2.946515558869642,
+          "pitch": 0.2717367738032497,
+          "rotation": 0,
+          "target": "104--"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.2597201828724351,
+          "pitch": -0.07110885184355986,
+          "title": "4교무실",
+          "text": "김종성 선생님, 이재민 선생님, 이대형 선생님 등 대회협력부 선생님들이 계십니다."
+        }
+      ]
+    },
+    {
+      "id": "45-atm--",
+      "name": "ATM기 쪽 입구",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.0633900535023457,
+          "pitch": 0.15880872970937965,
+          "rotation": 0.7853981633974483,
+          "target": "142---1"
+        },
+        {
+          "yaw": 0.14629477783675426,
+          "pitch": 0.15617278727462747,
+          "rotation": 0,
+          "target": "4-1-atm-"
+        },
+        {
+          "yaw": -1.7239851890308664,
+          "pitch": 0.18974937771986866,
+          "rotation": 0,
+          "target": "120----"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "46-atm--1-2-",
+      "name": "ATM쪽 계단 1층, 2층 사이",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.866720991497121,
+          "pitch": -0.14424070656801113,
+          "rotation": 0,
+          "target": "48-atm--2"
+        },
+        {
+          "yaw": -2.9268700495397653,
+          "pitch": 0.3718632187435347,
+          "rotation": 5.497787143782138,
+          "target": "4-1-atm-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "47-atm--2-3-",
+      "name": "ATM쪽 계단 2층 3층 사이",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.550042058723095,
+          "pitch": 0.6175932640338733,
+          "rotation": 0,
+          "target": "48-atm--2"
+        },
+        {
+          "yaw": 3.052325891664026,
+          "pitch": -0.0160312818522943,
+          "rotation": 0,
+          "target": "49-atm--3-as-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "48-atm--2",
+      "name": "ATM쪽 계단 2층",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.7713405025377185,
+          "pitch": 0.43575029848422453,
+          "rotation": 5.497787143782138,
+          "target": "17-2"
+        },
+        {
+          "yaw": 2.961598543146005,
+          "pitch": -0.005705572320803043,
+          "rotation": 0,
+          "target": "47-atm--2-3-"
+        },
+        {
+          "yaw": -2.4340215121126825,
+          "pitch": 0.691604244567781,
+          "rotation": 5.497787143782138,
+          "target": "46-atm--1-2-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "49-atm--3-as-",
+      "name": "ATM쪽 계단 3층, AS실 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.07873758941303421,
+          "pitch": 0.7015208847524885,
+          "rotation": 5.497787143782138,
+          "target": "30-3-atm---"
+        },
+        {
+          "yaw": 2.9044694836608578,
+          "pitch": 0.012565918607494453,
+          "rotation": 0,
+          "target": "8-1-2-"
+        },
+        {
+          "yaw": -2.8046245879388945,
+          "pitch": 0.6380716404958129,
+          "rotation": 0,
+          "target": "47-atm--2-3-"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.008328336526156,
+          "pitch": -0.05492927691130589,
+          "title": "A/S실",
+          "text": "학교의 모든 전자기기를 관리하시는 장기사님이 계시는 곳입니다."
+        }
+      ]
+    },
+    {
+      "id": "50---",
+      "name": "강당 (무대 위)",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.1040429320942184,
+          "pitch": 0.08173709647385863,
+          "rotation": 0,
+          "target": "55-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "51-----",
+      "name": "강당 가는 복도 입구 밖",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.0294184537022133,
+          "pitch": 0.36506292824117637,
+          "rotation": 11.780972450961727,
+          "target": "54--"
+        },
+        {
+          "yaw": 1.3756815906265167,
+          "pitch": 0.3790297678709411,
+          "rotation": 0,
+          "target": "55-"
+        },
+        {
+          "yaw": -1.6511778093001297,
+          "pitch": 0.3663922559886039,
+          "rotation": 0,
+          "target": "52-----"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "52-----",
+      "name": "강당 가는 복도 입구 안",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.63228857794451,
+          "pitch": 0.13563116214259452,
+          "rotation": 0,
+          "target": "97----1-"
+        },
+        {
+          "yaw": -0.4848268412139305,
+          "pitch": 0.28472750851016215,
+          "rotation": 5.497787143782138,
+          "target": "125---"
+        },
+        {
+          "yaw": 3.0869618364789826,
+          "pitch": 0.5079698583463603,
+          "rotation": 0,
+          "target": "51-----"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "53--",
+      "name": "강당 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.1268179338010107,
+          "pitch": 0.19760258189200286,
+          "rotation": 0,
+          "target": "62--"
+        },
+        {
+          "yaw": -1.5111063048479352,
+          "pitch": -0.091978255378244,
+          "rotation": 0,
+          "target": "54--"
+        },
+        {
+          "yaw": -3.0441848291294438,
+          "pitch": 0.08588037770675072,
+          "rotation": 0,
+          "target": "113----"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "54--",
+      "name": "강당 입구",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.07462462855172802,
+          "pitch": 0.23039935927199373,
+          "rotation": 0,
+          "target": "51-----"
+        },
+        {
+          "yaw": -3.1377801527915956,
+          "pitch": 0.5407809717937511,
           "rotation": 0,
           "target": "53--"
         }
@@ -2597,8 +2593,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "55-2---atm--",
-      "name": "2교무실, 본관 계단 (ATM쪽)  앞",
+      "id": "55-",
+      "name": "강당",
       "levels": [
         {
           "tileSize": 256,
@@ -2626,36 +2622,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.9973067620100498,
-          "pitch": 0.3855458925602626,
+          "yaw": 1.6347262103813174,
+          "pitch": -0.07088712219893978,
           "rotation": 0.7853981633974483,
-          "target": "56--atm--2"
+          "target": "43-3----"
         },
         {
-          "yaw": -1.6428149947951916,
-          "pitch": 0.17584657198559306,
+          "yaw": 0.03161346477356375,
+          "pitch": 0.13671530415763655,
           "rotation": 0,
-          "target": "59----"
-        },
-        {
-          "yaw": 1.4676788173406994,
-          "pitch": 0.16436330092102835,
-          "rotation": 0,
-          "target": "52-3--"
+          "target": "50---"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": -0.11835587131187708,
-          "pitch": -0.22754728179191552,
-          "title": "2교무실",
-          "text": "학생안전복지부<div><br></div><div>박향규 선생님, 김명준 선생님, 이명희 선생님, 이철희 선생님, 정혜선 선생님, 이은주 선생님, 이정임 선생님, 최규정 선생님, 박성래 선생님, 고낙은 선생님, 이하얀 선생님</div>"
-        }
-      ]
+      "infoHotspots": []
     },
     {
-      "id": "56--atm--2",
-      "name": "본관 (ATM쪽) 계단 2층",
+      "id": "56--",
+      "name": "경비실 앞",
       "levels": [
         {
           "tileSize": 256,
@@ -2683,29 +2666,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.6327099821538305,
-          "pitch": 0.3068438955973818,
-          "rotation": 10.995574287564278,
-          "target": "55-2---atm--"
+          "yaw": -3.1260736390464103,
+          "pitch": 0.24453084345395837,
+          "rotation": 0,
+          "target": "0-"
         },
         {
-          "yaw": 2.834946387788916,
-          "pitch": -0.02808709778659413,
+          "yaw": 0.06341437788018212,
+          "pitch": 0.04310547419428801,
           "rotation": 0,
-          "target": "74---atm--3-as"
-        },
-        {
-          "yaw": -2.8626668403098847,
-          "pitch": 0.7016533430462033,
-          "rotation": 0,
-          "target": "37---atm---1-2-"
+          "target": "62--"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "57--",
-      "name": "진로 체험실",
+      "name": "계양대 앞",
       "levels": [
         {
           "tileSize": 256,
@@ -2733,10 +2710,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.9082576390102801,
-          "pitch": -0.013598626045244089,
-          "rotation": 1.5707963267948966,
-          "target": "59----"
+          "yaw": 0.003766896645796436,
+          "pitch": 0.16062405444834482,
+          "rotation": 0,
+          "target": "68---"
+        },
+        {
+          "yaw": 3.1323338338899243,
+          "pitch": 0.18327652177546483,
+          "rotation": 0,
+          "target": "119----"
         }
       ],
       "infoHotspots": []
@@ -2771,4142 +2754,67 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.8014913285864473,
-          "pitch": 0.09134388357221468,
-          "rotation": 4.71238898038469,
-          "target": "59----"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "59----",
-      "name": "보건실, 과학실, 진로체험실 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.374327365018676,
-          "pitch": 0.5322340017958744,
+          "yaw": -0.8155162537208192,
+          "pitch": 0.3216996934203298,
           "rotation": 5.497787143782138,
-          "target": "58-"
+          "target": "98----"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "59---",
+      "name": "교장실 앞 복도",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": 1.3660200861472944,
-          "pitch": 0.6329373704894969,
-          "rotation": 12.566370614359176,
-          "target": "60-"
+          "tileSize": 512,
+          "size": 512
         },
         {
-          "yaw": -2.4649088965385317,
-          "pitch": 0.5571992993491666,
-          "rotation": 0.7853981633974483,
-          "target": "57--"
+          "tileSize": 512,
+          "size": 1024
         },
         {
-          "yaw": -3.102165772835736,
-          "pitch": 0.12758599466743803,
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.1251635998310316,
+          "pitch": 0.23858643507067612,
           "rotation": 0,
-          "target": "55-2---atm--"
+          "target": "145---4"
         },
         {
-          "yaw": 0.08246070885456014,
-          "pitch": 0.17401342446845725,
+          "yaw": 0.09902205440920042,
+          "pitch": 0.22095624425061544,
           "rotation": 0,
-          "target": "61-2---"
+          "target": "1-1---1"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 2.55401620907406,
-          "pitch": -0.026385331010445157,
-          "title": "과학실",
-          "text": "2학년 교과 과목인 과학 시간에 이동수업을 하는 장소입니다."
-        },
-        {
-          "yaw": -2.6303904551920354,
-          "pitch": -0.08092447430617966,
-          "title": "진로체험실",
-          "text": "매주 월요일, 수요일, 금요일 주번 조회를 하는 곳입니다."
+          "yaw": 2.488907090009107,
+          "pitch": -0.1575534921109245,
+          "title": "미림여자정보과학고등학교 교장실",
+          "text": "미림여자정보과학고등학교의 교장 선생님이신 이형원 교장 선생님께서 계시는 곳입니다."
         }
       ]
     },
     {
-      "id": "60-",
-      "name": "보건실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.6771703535395694,
-          "pitch": 0.5401838517973285,
-          "rotation": 0,
-          "target": "59----"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "61-2---",
-      "name": "2층 복도 끝 ",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.711570601369754,
-          "pitch": 0.3112550425663443,
-          "rotation": 7.0685834705770345,
-          "target": "59----"
-        },
-        {
-          "yaw": -2.8694029586022136,
-          "pitch": 0.23132546267707532,
-          "rotation": 0,
-          "target": "21----"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "62--3",
-      "name": "본관 3층",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.7240913403572016,
-          "pitch": 0.3528967898144657,
-          "rotation": 0,
-          "target": "38---2"
-        },
-        {
-          "yaw": 0.37422993172779684,
-          "pitch": -0.09747978501287591,
-          "rotation": 0,
-          "target": "81---4"
-        },
-        {
-          "yaw": -1.0834281616915362,
-          "pitch": 0.16780241827008702,
-          "rotation": 0,
-          "target": "63-"
-        },
-        {
-          "yaw": 2.0865448185624818,
-          "pitch": 0.16864105968094023,
-          "rotation": 0,
-          "target": "66-4"
-        },
-        {
-          "yaw": 2.552948564357056,
-          "pitch": 0.26851447513277193,
-          "rotation": 0.7853981633974483,
-          "target": "70--1--2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "63-",
-      "name": "방송실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.907217186800711,
-          "pitch": 0.21613910502117584,
-          "rotation": 0.7853981633974483,
-          "target": "64--"
-        },
-        {
-          "yaw": -0.01373492981494806,
-          "pitch": 0.1333667351425376,
-          "rotation": 0,
-          "target": "62--3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "64--",
-      "name": "학교 기업실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.2832691891319392,
-          "pitch": 0.2219162971434443,
-          "rotation": 5.497787143782138,
-          "target": "63-"
-        },
-        {
-          "yaw": 1.7350372503080802,
-          "pitch": 0.22268013128736897,
-          "rotation": 0,
-          "target": "65---"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 2.8404886314482223,
-          "pitch": -0.14502619258808913,
-          "title": "학교기업실(미림플래콘)",
-          "text": "학교 포스터 등과 같이 학교 내부의 일과 외주를 맡아 하는 동아리입니다.<div><br><div><div>동아리 담당 선생님은 김종성 선생님이십니다.</div></div><div><br></div><div>관련 [퀴즈] 를 풀어보세요!</div></div>"
-        }
-      ]
-    },
-    {
-      "id": "65---",
-      "name": "학교 기업실 복도",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.27490293639078445,
-          "pitch": 0.23918054045231152,
-          "rotation": 0,
-          "target": "64--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "66-4",
-      "name": "4교무실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.1651127240515109,
-          "pitch": 0.17349865384285934,
-          "rotation": 0,
-          "target": "62--3"
-        },
-        {
-          "yaw": -3.0162835139714854,
-          "pitch": 0.20338537393052647,
-          "rotation": 0,
-          "target": "67-4-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 2.255019865057438,
-          "pitch": -0.30919603201857093,
-          "title": "4교무실",
-          "text": "대외협력부<div><br></div><div>이재민 선생님, 이대형 선생님, 이규응 선생님, 윤선희 선생님, 윤성웅 선생님, 이세호 선생님, 김종성 선생님, 임정훈 선생님, 정하나 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "67-4-",
-      "name": "4교무실 뒷문",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.1395087747185677,
-          "pitch": 0.07644247805052906,
-          "rotation": 0,
-          "target": "66-4"
-        },
-        {
-          "yaw": -3.0440376146625443,
-          "pitch": 0.15601234377831297,
-          "rotation": 0,
-          "target": "68-2-2-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "68-2-2-",
-      "name": "2학년 2반 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.010518258182225182,
-          "pitch": 0.1293425019596519,
-          "rotation": 0,
-          "target": "67-4-"
-        },
-        {
-          "yaw": 3.0853457214299134,
-          "pitch": 0.2209660372677611,
-          "rotation": 0,
-          "target": "69-2-1-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.7464331623188478,
-          "pitch": -0.2771366432615814,
-          "title": "2학년 2반",
-          "text": "학과 : 뉴미디어소프트웨어과<div><br></div><div>담임 선생님 : 유병석 선생님</div><div>부담임 선생님 : 윤성웅 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "69-2-1-",
-      "name": "2학년 1반 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.1362373853038079,
-          "pitch": 0.27564031424949675,
-          "rotation": 0,
-          "target": "68-2-2-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 2.689520174804212,
-          "pitch": -0.003941512169330252,
-          "title": "2학년 1반",
-          "text": "학과 : 뉴미디어 소프트웨어과<div><br></div><div>담임 선생님 : 우호식 선생님</div><div>부담임 선생님 : 신혜정 선생님&nbsp;<br></div>"
-        }
-      ]
-    },
-    {
-      "id": "70--1--2",
-      "name": "소프트웨어 1실, 솔루션 2실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.3961828185886418,
-          "pitch": 0.5112030114250032,
-          "rotation": 5.497787143782138,
-          "target": "62--3"
-        },
-        {
-          "yaw": -1.7134457589659782,
-          "pitch": 0.23235321522961705,
-          "rotation": 0,
-          "target": "72--1"
-        },
-        {
-          "yaw": 1.8212571168763834,
-          "pitch": 0.11146839770108485,
-          "rotation": 0,
-          "target": "71--2"
-        },
-        {
-          "yaw": -3.1328943928693676,
-          "pitch": 0.1612373108702485,
-          "rotation": 0,
-          "target": "73-----atm--"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 2.1048550764516776,
-          "pitch": -0.3394888716823736,
-          "title": "뉴미디어웹솔루션 2실",
-          "text": "전공 수업과 방과후 수업을 들을 때 사용하는 실습실입니다."
-        },
-        {
-          "yaw": -2.112236752597216,
-          "pitch": -0.32654430336514295,
-          "title": "뉴미디어소프트웨어 1실",
-          "text": "WSM 과목과 같은 전공 수업을 듣거나 방과후 수업을 들을 때 사용하는 실습실입니다.&nbsp;"
-        }
-      ]
-    },
-    {
-      "id": "71--2",
-      "name": "뉴미디어웹솔루션 2실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.2813046578071674,
-          "pitch": -0.010337543348150291,
-          "rotation": 10.995574287564278,
-          "target": "76--2--3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "72--1",
-      "name": "뉴미디어소프트웨어 1실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.444257592435388,
-          "pitch": 0.029152444820379486,
-          "rotation": 1.5707963267948966,
-          "target": "70--1--2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "73-----atm--",
-      "name": "창작지원센터 앞, 본관 계단 (ATM 쪽) 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.06164307650023915,
-          "pitch": 0.09912337878855304,
-          "rotation": 0,
-          "target": "70--1--2"
-        },
-        {
-          "yaw": 0.35679044943329785,
-          "pitch": 0.1330029632708829,
-          "rotation": 1.5707963267948966,
-          "target": "74---atm--3-as"
-        },
-        {
-          "yaw": 3.1085393718681047,
-          "pitch": 0.12325422234097516,
-          "rotation": 0,
-          "target": "75--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "74---atm--3-as",
-      "name": "본관 계단 (ATM 쪽) 3층, A/S실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.829719090701084,
-          "pitch": 0.5114906394892618,
-          "rotation": 10.995574287564278,
-          "target": "73-----atm--"
-        },
-        {
-          "yaw": -0.22128791677605442,
-          "pitch": -0.04266542188176814,
-          "rotation": 0,
-          "target": "98-2-3----atm--"
-        },
-        {
-          "yaw": 0.43966096850033587,
-          "pitch": 0.4994307456362961,
-          "rotation": 5.497787143782138,
-          "target": "56--atm--2"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.0057999333359788,
-          "pitch": -0.19891978150586453,
-          "title": "A/S실",
-          "text": "학교의 모든 기기들을 관리해주시고 학생들의 노트북도 봐주시는 장명수 기사님이 계시는 곳입니다."
-        }
-      ]
-    },
-    {
-      "id": "75--",
-      "name": "프린터기 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.03362927943326177,
-          "pitch": 0.10791995646547292,
-          "rotation": 0,
-          "target": "73-----atm--"
-        },
-        {
-          "yaw": 3.0917385011366463,
-          "pitch": 0.14831724593868678,
-          "rotation": 0,
-          "target": "76--2--3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "76--2--3",
-      "name": "소프트웨어 2실, 솔루션 3실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.751158225545427,
-          "pitch": 0.21042021060969418,
-          "rotation": 4.71238898038469,
-          "target": "78--3"
-        },
-        {
-          "yaw": 3.069245602619631,
-          "pitch": 0.1531955777637286,
-          "rotation": 0,
-          "target": "79--1-----"
-        },
-        {
-          "yaw": -0.02908403003647919,
-          "pitch": 0.10573856491645017,
-          "rotation": 0,
-          "target": "75--"
-        },
-        {
-          "yaw": -1.1417240040433203,
-          "pitch": 0.33732755211390675,
-          "rotation": 5.497787143782138,
-          "target": "77--2"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 2.6844381319002135,
-          "pitch": -0.1399678436215872,
-          "title": "뉴미디어웹솔루션 3실",
-          "text": "디자인 수업 등 전공 수업과 방과후 수업을 듣는 실습실입니다."
-        },
-        {
-          "yaw": -0.8784804412390272,
-          "pitch": -0.2806877649532602,
-          "title": "뉴미디어소프트웨어 2실",
-          "text": "JSP, DBP 등 전공 수업과 방과후 수업을 듣는 실습실입니다."
-        }
-      ]
-    },
-    {
-      "id": "77--2",
-      "name": "뉴미디어소프트웨어 2실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.403051613513475,
-          "pitch": 0.03165480183027114,
-          "rotation": 4.71238898038469,
-          "target": "76--2--3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "78--3",
-      "name": "뉴미디어웹솔루션 3실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "79--1-----",
-      "name": "솔루션 1실, 복도 끝 계단 계단 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.7212842101767389,
-          "pitch": 0.354179252367091,
-          "rotation": 5.497787143782138,
-          "target": "80--1"
-        },
-        {
-          "yaw": 0.12313784119871762,
-          "pitch": 0.11365255761121773,
-          "rotation": 0,
-          "target": "76--2--3"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.5069216820943936,
-          "pitch": -0.12805414003100601,
-          "title": "뉴미디어웹솔루션 1실",
-          "text": "Python, php 등의 전공 수업과 방과후 수업을 듣는 실습실입니다."
-        }
-      ]
-    },
-    {
-      "id": "80--1",
-      "name": "뉴미디어웹솔루션 1실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.5856840096185856,
-          "pitch": -0.044123900664695626,
-          "rotation": 4.71238898038469,
-          "target": "79--1-----"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "81---4",
-      "name": "본관 계단 4층",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.36378797552486475,
-          "pitch": 0.5913621156501421,
-          "rotation": 0,
-          "target": "62--3"
-        },
-        {
-          "yaw": 3.1165271638867864,
-          "pitch": 0.6353716387247843,
-          "rotation": 0,
-          "target": "82--4"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "82--4",
-      "name": "본관 4층",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.16637831246213786,
-          "pitch": 0.5824377798591307,
-          "rotation": 0,
-          "target": "81---4"
-        },
-        {
-          "yaw": 1.6543269067535453,
-          "pitch": 0.09975083292527387,
-          "rotation": 0,
-          "target": "89--"
-        },
-        {
-          "yaw": 2.1234133120584087,
-          "pitch": 0.11220219347091032,
-          "rotation": 1.5707963267948966,
-          "target": "95-2-4-"
-        },
-        {
-          "yaw": -1.5866831199566356,
-          "pitch": 0.40619961236228264,
-          "rotation": 0,
-          "target": "83-2-5-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "83-2-5-",
-      "name": "2학년 5반 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.073868718448523,
-          "pitch": 0.4053537960714628,
-          "rotation": 0,
-          "target": "82--4"
-        },
-        {
-          "yaw": 1.6271881835229065,
-          "pitch": 0.5425340803209338,
-          "rotation": 0,
-          "target": "84-2-5"
-        },
-        {
-          "yaw": 0.19353747633818585,
-          "pitch": 0.310023258373727,
-          "rotation": 0,
-          "target": "85-2-6-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.148844748267626,
-          "pitch": -0.10619260770413419,
-          "title": "2학년 5반",
-          "text": "학과 : 뉴미디어 디자인과<div><br></div><div>담임 선생님 : 정혜선 선생님</div><div>부담임 선생님 : 장민주 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "84-2-5",
-      "name": "2학년 5반",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.3062059679230487,
-          "pitch": 0.17474947436736699,
-          "rotation": 1.5707963267948966,
-          "target": "83-2-5-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "85-2-6-",
-      "name": "2학년 6반 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.3898982282406624,
-          "pitch": 0.2352378437843825,
-          "rotation": 0,
-          "target": "86-2-6-"
-        },
-        {
-          "yaw": -3.0830082903438143,
-          "pitch": 0.2284848017438641,
-          "rotation": 0,
-          "target": "83-2-5-"
-        },
-        {
-          "yaw": 0.7003912799142693,
-          "pitch": 0.2728635666142498,
-          "rotation": 5.497787143782138,
-          "target": "87--1-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.1792420444666813,
-          "pitch": 0.0026079734254977893,
-          "title": "2학년 6반",
-          "text": "학과 : 뉴미디어디자인과<div><br></div><div>담임 선생님 : 김명준 선생님</div><div>부담임 선생님 : 정하나 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "86-2-6-",
-      "name": "2학년 6반 ",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.30097877208612,
-          "pitch": 0.06727465069778837,
-          "rotation": 1.5707963267948966,
-          "target": "85-2-6-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "87--1-",
-      "name": "스마트문화앱콘텐츠제작 1실 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.2247064135660075,
-          "pitch": 0.5320009122267972,
-          "rotation": 0.7853981633974483,
-          "target": "88--1"
-        },
-        {
-          "yaw": -3.1063462285093415,
-          "pitch": 0.271438946881414,
-          "rotation": 0,
-          "target": "85-2-6-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.7618255123713666,
-          "pitch": -0.2213216920723564,
-          "title": "스마트문화앱콘텐츠제작 1실",
-          "text": "개발, 디자인 전공 수업과 방과후 수업을 듣는 실습실입니다."
-        }
-      ]
-    },
-    {
-      "id": "88--1",
-      "name": "스마트문화앱콘텐츠제작 1실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.018495162770602,
-          "pitch": 0.023679346793837652,
-          "rotation": 1.5707963267948966,
-          "target": "87--1-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "89--",
-      "name": "무한상상카페 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.007130640722971648,
-          "pitch": 0.20445817572537806,
-          "rotation": 0,
-          "target": "91--"
-        },
-        {
-          "yaw": -1.5380008624086035,
-          "pitch": 0.7870229312756418,
-          "rotation": 0,
-          "target": "90-"
-        },
-        {
-          "yaw": 3.0967578431131066,
-          "pitch": 0.20124050525860326,
-          "rotation": 0,
-          "target": "82--4"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "90-",
-      "name": "무한상상카페",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.8328550352752853,
-          "pitch": 0.06724515156442301,
-          "rotation": 4.71238898038469,
-          "target": "89--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "91--",
-      "name": "디지털스튜디오 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.06784937205697616,
-          "pitch": 0.15884643146152655,
-          "rotation": 0,
-          "target": "93--1-"
-        },
-        {
-          "yaw": -1.5579895457081854,
-          "pitch": 0.7989622966431398,
-          "rotation": 0,
-          "target": "92-"
-        },
-        {
-          "yaw": -3.09156697928624,
-          "pitch": 0.21932396160152123,
-          "rotation": 0,
-          "target": "89--"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.1521010549676305,
-          "pitch": -0.047033519762793574,
-          "title": "디지털스튜디오",
-          "text": "CG 등의 디자인 전공 수업과 방과후 수업을 듣는 실습실입니다."
-        }
-      ]
-    },
-    {
-      "id": "92-",
-      "name": "디지털스튜디오",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.382390990694865,
-          "pitch": -0.021835772677313514,
-          "rotation": 4.71238898038469,
-          "target": "91--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "93--1-",
-      "name": "뉴미디어디자인 1실 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.14908161247510598,
-          "pitch": 0.41326807586913894,
-          "rotation": 0,
-          "target": "94--1"
-        },
-        {
-          "yaw": -3.0397264801567303,
-          "pitch": 0.20979066374379407,
-          "rotation": 0,
-          "target": "91--"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.14843281716715495,
-          "pitch": -0.17205091992854804,
-          "title": "뉴미디어디자인 1실",
-          "text": "교장 선생님 간담회, 방과후 수업에 쓰이는 실습실입니다."
-        }
-      ]
-    },
-    {
-      "id": "94--1",
-      "name": "뉴미디어디자인 1실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.487958362631641,
-          "pitch": 0.1958336896368813,
-          "rotation": 0.7853981633974483,
-          "target": "93--1-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "95-2-4-",
-      "name": "2학년 4반 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.720430007245602,
-          "pitch": 0.5375575391720986,
-          "rotation": 0,
-          "target": "82--4"
-        },
-        {
-          "yaw": -1.7742416907428389,
-          "pitch": 0.5834512988087788,
-          "rotation": 0,
-          "target": "96-2-4"
-        },
-        {
-          "yaw": -0.0724223581016048,
-          "pitch": 0.17177939220275817,
-          "rotation": 0,
-          "target": "98-2-3----atm--"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.4196425395685477,
-          "pitch": -0.05976240427903967,
-          "title": "2학년 4반",
-          "text": "학과 : 뉴미디어웹솔루션과<div><br></div><div>담임 선생님 : 박지우 선생님</div><div>부담임 선생님 : 이형섭 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "96-2-4",
-      "name": "2학년 4반",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.439403298728937,
-          "pitch": 0.07082461354270819,
-          "rotation": 4.71238898038469,
-          "target": "95-2-4-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "97-2-3",
-      "name": "2학년 3반",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.3916570285629497,
-          "pitch": 0.025100831564822457,
-          "rotation": 4.71238898038469,
-          "target": "98-2-3----atm--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "98-2-3----atm--",
-      "name": "2학년 3반 앞, 본관 계단 (ATM 쪽) 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.541093447930699,
-          "pitch": 0.33132701595178915,
-          "rotation": 4.71238898038469,
-          "target": "97-2-3"
-        },
-        {
-          "yaw": -3.13436278736582,
-          "pitch": 0.23909938036837275,
-          "rotation": 0,
-          "target": "95-2-4-"
-        },
-        {
-          "yaw": -1.2564828907160397,
-          "pitch": 0.397336473929812,
-          "rotation": 7.0685834705770345,
-          "target": "74---atm--3-as"
-        },
-        {
-          "yaw": 0.041611973015356796,
-          "pitch": 0.18873048569815865,
-          "rotation": 0,
-          "target": "99-1-1-1-6-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 2.4501557830491336,
-          "pitch": -0.11452183772521707,
-          "title": "2학년 3반",
-          "text": "학과 : 뉴미디어웹솔루션과<div><br></div><div>담임 선생님 : 권지웅 선생님</div><div>부담임 선생님 : 이대형 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "99-1-1-1-6-",
-      "name": "1학년 1반, 1학년 6반 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.25116085974744,
-          "pitch": 0.5941274430401791,
-          "rotation": 6.283185307179586,
-          "target": "100-1-1"
-        },
-        {
-          "yaw": 3.137999946655917,
-          "pitch": 0.24911454797306476,
-          "rotation": 0,
-          "target": "98-2-3----atm--"
-        },
-        {
-          "yaw": -0.013799748489651265,
-          "pitch": 0.12426058725756839,
-          "rotation": 0,
-          "target": "101-1-2-1-5-"
-        },
-        {
-          "yaw": -0.5014063278592182,
-          "pitch": 0.39767040523912023,
-          "rotation": 4.71238898038469,
-          "target": "103-1-6"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.7757326198278918,
-          "pitch": -0.191811211242916,
-          "title": "1학년 1반",
-          "text": "학과 : 뉴미디어소프트웨어과<div><br></div><div>담임 선생님 : 이호걸 선생님</div><div>부담임 선생님 : 민주리 선생님</div>"
-        },
-        {
-          "yaw": -0.5824001438337447,
-          "pitch": -0.11343918430427458,
-          "title": "1학년 6반",
-          "text": "학과 : 뉴미디어디자인과<div><br></div><div>담임 선생님 : 이하얀 선생님</div><div>부담임 선생님 : 김영철 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "100-1-1",
-      "name": "1학년 1반",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.8821031508663033,
-          "pitch": 0.07916258070827453,
-          "rotation": 4.71238898038469,
-          "target": "99-1-1-1-6-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "101-1-2-1-5-",
-      "name": "1학년 2반, 1학년 5반 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.03303416938113557,
-          "pitch": 0.15147605528766306,
-          "rotation": 0,
-          "target": "104-1-3-"
-        },
-        {
-          "yaw": -0.4075232096938173,
-          "pitch": 0.2749806138001407,
-          "rotation": 4.71238898038469,
-          "target": "106-1-5"
-        },
-        {
-          "yaw": 1.3103560052885843,
-          "pitch": 0.4986525797526653,
-          "rotation": 0.7853981633974483,
-          "target": "102-1-2"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.49972179972184705,
-          "pitch": -0.11014480254547543,
-          "title": "1학년 5반",
-          "text": "학과 : 뉴미디어디자인과<div><br></div><div>담임 선생님 : 김윤환 선생님</div><div>부담임 선생님 : 이철호 선생님</div>"
-        },
-        {
-          "yaw": 0.840215321161784,
-          "pitch": -0.18542669627812813,
-          "title": "1학년 2반",
-          "text": "학과 : 뉴미디어소프트웨어과<div><br></div><div>담임 선생님 : 최정아 선생님</div><div>부담임 선생님 : 이은주 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "102-1-2",
-      "name": "1학년 2반",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.336069130936928,
-          "pitch": 0.13957874290406558,
-          "rotation": 4.71238898038469,
-          "target": "101-1-2-1-5-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "103-1-6",
-      "name": "1학년 6반",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.346885234403537,
-          "pitch": 0.057091120757000624,
-          "rotation": 4.71238898038469,
-          "target": "103-1-6"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "104-1-3-",
-      "name": "1학년 3반 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.283057275827744,
-          "pitch": 0.530148728746056,
-          "rotation": 0,
-          "target": "105-1-3"
-        },
-        {
-          "yaw": 3.097464748765047,
-          "pitch": 0.19849007957168574,
-          "rotation": 0,
-          "target": "101-1-2-1-5-"
-        },
-        {
-          "yaw": -0.04316935153490853,
-          "pitch": 0.13722728360061964,
-          "rotation": 0,
-          "target": "107-1-4-4-----"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.8661110268760126,
-          "pitch": -0.20143447836221284,
-          "title": "1학년 3반",
-          "text": "학과 : 뉴미디어웹솔루션과<div><br></div><div>담임 선생님 : 김보경 선생님</div><div>부담임 선생님 : 백현정 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "105-1-3",
-      "name": "1학년 3반",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.3049743939617553,
-          "pitch": 0.08483357210729103,
-          "rotation": 4.71238898038469,
-          "target": "104-1-3-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "106-1-5",
-      "name": "1학년 5반",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.3170058392138397,
-          "pitch": 0.04960816227931275,
-          "rotation": 4.71238898038469,
-          "target": "101-1-2-1-5-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "107-1-4-4-----",
-      "name": "1학년 4반, 4층 휴게장소, 복도 끝 계단 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.5076954177842232,
-          "pitch": 0.5326669213818285,
-          "rotation": 0,
-          "target": "108-1-4"
-        },
-        {
-          "yaw": -3.0647087433002866,
-          "pitch": 0.20481382897044753,
-          "rotation": 0,
-          "target": "104-1-3-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.9789796349120294,
-          "pitch": -0.2609758197580163,
-          "title": "1학년 4반",
-          "text": "학과 : 뉴미디어웹솔루션과<div><br></div><div>담임 선생님 : 이호연 선생님</div><div>부담임 선생님 : 김지훈 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "108-1-4",
-      "name": "1학년 4반",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.3609147225600378,
-          "pitch": 0.1307374546509319,
-          "rotation": 4.71238898038469,
-          "target": "108-1-4"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "109--",
-      "name": "강당 복도",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.4194820505559615,
-          "pitch": 0.24271213399241276,
-          "rotation": 0,
-          "target": "150-"
-        },
-        {
-          "yaw": -3.0452681908490327,
-          "pitch": 0.24373323975360606,
-          "rotation": 0,
-          "target": "4-"
-        },
-        {
-          "yaw": -1.5666471324241815,
-          "pitch": 0.3513946000468877,
-          "rotation": 0,
-          "target": "110----"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "110----",
-      "name": "별관 서브 계단 지하",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.6177684720273993,
-          "pitch": 0.05760634298218292,
-          "rotation": 0,
-          "target": "117-----1-"
-        },
-        {
-          "yaw": -0.49650758832324016,
-          "pitch": 0.23257833756385082,
-          "rotation": 11.780972450961727,
-          "target": "111---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "111---",
-      "name": "아트스튜디오, 커리어존 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.13241882599012023,
-          "pitch": 0.13926957024970044,
-          "rotation": 5.497787143782138,
-          "target": "110----"
-        },
-        {
-          "yaw": -2.3014818145724707,
-          "pitch": 0.18802448888548895,
-          "rotation": 0.7853981633974483,
-          "target": "112-"
-        },
-        {
-          "yaw": -3.1367941883437886,
-          "pitch": 0.018778331516042357,
-          "rotation": 0,
-          "target": "114---"
-        },
-        {
-          "yaw": 0.7362331317907493,
-          "pitch": 0.19842519583609075,
-          "rotation": 7.0685834705770345,
-          "target": "113-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -2.0328848365076055,
-          "pitch": -0.3827619786816392,
-          "title": "아트스튜디오",
-          "text": "디자인 전공 수업과 방과후 수업을 듣는 실습실입니다."
-        }
-      ]
-    },
-    {
-      "id": "112-",
-      "name": "아트스튜디오",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.918052556569192,
-          "pitch": 0.1796557037019788,
-          "rotation": 6.283185307179586,
-          "target": "111---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "113-",
-      "name": "커리어존",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.2349865329582492,
-          "pitch": 0.07182546992846817,
-          "rotation": 4.71238898038469,
-          "target": "111---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "114---",
-      "name": "별관 계단 지하",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.7471839835351055,
-          "pitch": 0.3484775169120482,
-          "rotation": 1.5707963267948966,
-          "target": "111---"
-        },
-        {
-          "yaw": 2.7552204134058425,
-          "pitch": 0.3021515172685163,
-          "rotation": 0,
-          "target": "115----1-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "115----1-",
-      "name": "별관 계단 지하 1층 사이",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.9767734300483077,
-          "pitch": 0.3832354002992684,
-          "rotation": 0,
-          "target": "114---"
-        },
-        {
-          "yaw": 2.924318082968721,
-          "pitch": -0.09121648408171978,
-          "rotation": 0,
-          "target": "118---1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "116-----1--2",
-      "name": "별관 서브 계단 지하 1층 사이 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.5642844070302013,
-          "pitch": 0.598326841773897,
-          "rotation": 0.7853981633974483,
-          "target": "117-----1-"
-        },
-        {
-          "yaw": -3.0121675510530235,
-          "pitch": 0.0166938809883721,
-          "rotation": 0,
-          "target": "125----1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "117-----1-",
-      "name": "별관 서브 계단 지하 1층 사이",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.884624746292409,
-          "pitch": 0.5833830258968344,
-          "rotation": 0,
-          "target": "110----"
-        },
-        {
-          "yaw": -2.8361907155875894,
-          "pitch": 0.013271170945508004,
-          "rotation": 0,
-          "target": "116-----1--2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "118---1",
-      "name": "별관 계단 1층",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.6606266346469774,
-          "pitch": 0.7069826474823291,
-          "rotation": 0,
-          "target": "115----1-"
-        },
-        {
-          "yaw": 3.0371094878010467,
-          "pitch": 0.00425211565226391,
-          "rotation": 0,
-          "target": "133---1-2-"
-        },
-        {
-          "yaw": 1.7692412839687135,
-          "pitch": 0.4660440689923444,
-          "rotation": 0,
-          "target": "119--1-3-6---"
-        },
-        {
-          "yaw": -1.7711222926034544,
-          "pitch": 0.11509263100555245,
-          "rotation": 0,
-          "target": "127----"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "119--1-3-6---",
-      "name": "별관 1층, 3학년 6반, 별관 입구 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.4415369181844078,
-          "pitch": 0.24697962371240578,
-          "rotation": 0,
-          "target": "5----"
-        },
-        {
-          "yaw": -3.12822563880761,
-          "pitch": 0.48952755787667,
-          "rotation": 0,
-          "target": "118---1"
-        },
-        {
-          "yaw": 0.059781232097250836,
-          "pitch": 0.19194442932112565,
-          "rotation": 0,
-          "target": "121-3-5--"
-        },
-        {
-          "yaw": 0.5735634808769792,
-          "pitch": 0.30098476759412307,
-          "rotation": 1.5707963267948966,
-          "target": "120-3-6"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.49873973256081605,
-          "pitch": 0.023678281502883536,
-          "title": "3학년 6반",
-          "text": "학과 : 뉴미디어디자인과<div><br></div><div>담임 선생님 : 김민혜 선생님</div><div>부담임 선생님 : 박진형 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "120-3-6",
-      "name": "3학년 6반",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.9085106373991891,
-          "pitch": 0.1556007785084894,
-          "rotation": 1.5707963267948966,
-          "target": "119--1-3-6---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "121-3-5--",
-      "name": "3학년 5반, 코워킹스페이스 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.6640869629922213,
-          "pitch": 0.5664379619383482,
-          "rotation": 6.283185307179586,
-          "target": "122-3-5"
-        },
-        {
-          "yaw": 0.07224043535121538,
-          "pitch": 0.19367688745674272,
-          "rotation": 0,
-          "target": "124-3-4------1-"
-        },
-        {
-          "yaw": -0.10140659005757158,
-          "pitch": 0.11468755791007723,
-          "rotation": 4.71238898038469,
-          "target": "123-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.0582005740319147,
-          "pitch": -0.15667291264222527,
-          "title": "3학년 5반",
-          "text": "학과 : 뉴미디어디자인과<div><br></div><div>담임선생님 : 고낙은 선생님</div><div>부담임선생님 : 김종성 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "122-3-5",
-      "name": "3학년 5반",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.185128457120875,
-          "pitch": 0.09602286508775748,
-          "rotation": 1.5707963267948966,
-          "target": "121-3-5--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "123-",
-      "name": "코워킹스페이스",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.329701948706159,
-          "pitch": 0.04092227255771519,
-          "rotation": 1.5707963267948966,
-          "target": "121-3-5--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "124-3-4------1-",
-      "name": "3학년 4반, 별관 강당 입구 앞, 별관 1층 복도",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 3.097301035288349,
-          "pitch": 0.1004173722806172,
-          "rotation": 0,
-          "target": "121-3-5--"
-        },
-        {
-          "yaw": -0.04248056652840404,
-          "pitch": 0.25609238613146346,
-          "rotation": 0,
-          "target": "148---"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.1095269412014162,
-          "pitch": -0.14530197287165691,
-          "title": "3학년 4반",
-          "text": "학과 : 뉴미디어웹솔루션과<div><br></div><div>담임 선생님 : 최영진 선생님</div><div>부담임 선생님 : 이세호 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "125----1",
-      "name": "별관 서브 계단 1층",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.6598446221492313,
-          "pitch": 0.5908675073094383,
-          "rotation": 0,
-          "target": "116-----1--2"
-        },
-        {
-          "yaw": -3.040248790295669,
-          "pitch": -0.04374528277031686,
-          "rotation": 0,
-          "target": "126----1-2-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "126----1-2-",
-      "name": "별관 서브 계단 1층 2층 사이",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.7651161933018242,
-          "pitch": 0.6440393575112893,
-          "rotation": 0,
-          "target": "125----1"
-        },
-        {
-          "yaw": -2.9240300231814587,
-          "pitch": 0.0463695359021461,
-          "rotation": 0,
-          "target": "144----2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "127----",
-      "name": "별관 매점 가는 복도",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.115923408288385,
-          "pitch": 0.4054257064007345,
-          "rotation": 0,
-          "target": "118---1"
-        },
-        {
-          "yaw": -0.07141206785456156,
-          "pitch": 0.14942836111392666,
-          "rotation": 0,
-          "target": "128-----2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "128-----2",
-      "name": "별관 매점 가는 복도 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.9858167272582303,
-          "pitch": 0.3657227431258754,
-          "rotation": 0,
-          "target": "127----"
-        },
-        {
-          "yaw": 0.14429029949858396,
-          "pitch": 0.5304207023556575,
-          "rotation": 0.7853981633974483,
-          "target": "129-----3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "129-----3",
-      "name": "별관 매점 가는 복도 3",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.4546975009093543,
-          "pitch": 0.24260079212929853,
-          "rotation": 0,
-          "target": "130--"
-        },
-        {
-          "yaw": -2.9610739665690744,
-          "pitch": 0.2583514257603099,
-          "rotation": 0,
-          "target": "128-----2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "130--",
-      "name": "매점 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.2545168205315278,
-          "pitch": 0.4435320613197504,
-          "rotation": 0,
-          "target": "131-"
-        },
-        {
-          "yaw": -1.0157039015582328,
-          "pitch": 0.366900929472882,
-          "rotation": 0.7853981633974483,
-          "target": "129-----3"
-        },
-        {
-          "yaw": -3.07388651446319,
-          "pitch": 0.17012614043109942,
-          "rotation": 0,
-          "target": "29----"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "131-",
-      "name": "매점",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.7783173692210834,
-          "pitch": 0.2460647955988957,
-          "rotation": 5.497787143782138,
-          "target": "130--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "132---2",
-      "name": "별관 계단 2층",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.18089740328352022,
-          "pitch": 0.352086241688081,
-          "rotation": 0,
-          "target": "134-3-1-"
-        },
-        {
-          "yaw": 1.2783823377125803,
-          "pitch": 0.5777453031513975,
-          "rotation": 0,
-          "target": "133---1-2-"
-        },
-        {
-          "yaw": 2.6024978268973724,
-          "pitch": 0.17929051988474143,
-          "rotation": 0,
-          "target": "47----3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "133---1-2-",
-      "name": "별관 계단 1층 2층 사이",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.8846302162766717,
-          "pitch": 0.04864777423550137,
-          "rotation": 0,
-          "target": "132---2"
-        },
-        {
-          "yaw": -2.771094255992029,
-          "pitch": 0.7778337275570788,
-          "rotation": 0,
-          "target": "118---1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "134-3-1-",
-      "name": "3학년 1반 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.6971496618495543,
-          "pitch": 0.5804543741420858,
-          "rotation": 0,
-          "target": "135-3-1"
-        },
-        {
-          "yaw": -2.8782690200358125,
-          "pitch": 0.2899877889125655,
-          "rotation": 0,
-          "target": "132---2"
-        },
-        {
-          "yaw": 0.0920454000733848,
-          "pitch": 0.21511940102871918,
-          "rotation": 0,
-          "target": "136-3-2--"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.120831764001105,
-          "pitch": -0.1964455224413033,
-          "title": "3학년 1반",
-          "text": "학과 : 뉴미디어소프트웨어과<div><br></div><div>담임 선생님 : 최규정 선생님</div><div>부담임 선생님 : 이정임 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "135-3-1",
-      "name": "3학년 1반",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.1369436659811676,
-          "pitch": 0.016952594325571724,
-          "rotation": 1.5707963267948966,
-          "target": "134-3-1-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "136-3-2--",
-      "name": "3학년 2반, 영어카페 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.006684217022817407,
-          "pitch": 0.1954252019917071,
-          "rotation": 0,
-          "target": "134-3-1-"
-        },
-        {
-          "yaw": 2.8998867015158503,
-          "pitch": 0.22053497584647275,
-          "rotation": 4.71238898038469,
-          "target": "137--"
-        },
-        {
-          "yaw": -3.0961999054072358,
-          "pitch": 0.14621223688075702,
-          "rotation": 0,
-          "target": "138-3-3---2-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.3439043508469464,
-          "pitch": -0.30898199363958057,
-          "title": "3학년 2반",
-          "text": "학과 : 뉴미디어소프트웨어과<div><br></div><div>담임 선생님 : 박성래 선생님</div><div>부담임 선생님 : 함기훈 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "137--",
-      "name": "영어 카페",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.6262962355478487,
-          "pitch": 0.1907629998272622,
-          "rotation": 0,
-          "target": "136-3-2--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "138-3-3---2-",
-      "name": "3학년 3반 앞, 별관 2층 복도",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.6819243800498054,
-          "pitch": 0.5956312217062827,
-          "rotation": 0,
-          "target": "139-3-3"
-        },
-        {
-          "yaw": -3.014820319886507,
-          "pitch": 0.202833818220725,
-          "rotation": 0,
-          "target": "136-3-2--"
-        },
-        {
-          "yaw": -0.382020630881005,
-          "pitch": 0.443405690395279,
-          "rotation": 5.497787143782138,
-          "target": "140-----"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.1256523035453458,
-          "pitch": -0.24990531076058176,
-          "title": "3학년 3반",
-          "text": "학과 : 뉴미디어웹솔루션과<div><br></div><div>담임 선생님 : 임정훈 선생님</div><div>부담임 선생님 : 윤선희 선생님</div>"
-        }
-      ]
-    },
-    {
-      "id": "139-3-3",
-      "name": "3학년 3반",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.1406510602775963,
-          "pitch": 0.12366043414465722,
-          "rotation": 1.5707963267948966,
-          "target": "138-3-3---2-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "140-----",
-      "name": "예절교육실, 별관 서브 계단 앞",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.1299918048274815,
-          "pitch": 0.2592321456929305,
-          "rotation": 0,
-          "target": "138-3-3---2-"
-        },
-        {
-          "yaw": 1.1793518730410746,
-          "pitch": 0.6257762356142518,
-          "rotation": 6.283185307179586,
-          "target": "144----2"
-        },
-        {
-          "yaw": 0.059426939547778446,
-          "pitch": 0.48127782934507835,
-          "rotation": 0,
-          "target": "141-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "141-",
-      "name": "예절교육실",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.1677340635442395,
-          "pitch": 0.4011778397642978,
-          "rotation": 4.71238898038469,
-          "target": "140-----"
-        },
-        {
-          "yaw": -0.08690889908132604,
-          "pitch": 0.5581332865823097,
-          "rotation": 0,
-          "target": "142--2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "142--2",
-      "name": "예절교육실 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.7303996857035902,
-          "pitch": 0.1978471027222355,
-          "rotation": 0,
-          "target": "143--3"
-        },
-        {
-          "yaw": 2.9912893527219353,
-          "pitch": 0.2662793884476713,
-          "rotation": 0.7853981633974483,
-          "target": "141-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "143--3",
-      "name": "예절교육실 3",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.136268091997932,
-          "pitch": 0.2313467629802055,
-          "rotation": 0,
-          "target": "142--2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "144----2",
-      "name": "별관 서브 계단 2층",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.3416135539297684,
-          "pitch": 0.5372252115170539,
-          "rotation": 0,
-          "target": "140-----"
-        },
-        {
-          "yaw": 2.768930292564238,
-          "pitch": 0.6610074307326101,
-          "rotation": 0.7853981633974483,
-          "target": "126----1-2-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "145--",
-      "name": "급식실 입구",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.5134059455929307,
-          "pitch": 0.2924890947531438,
-          "rotation": 0,
-          "target": "146--"
-        },
-        {
-          "yaw": -3.097626733920608,
-          "pitch": 0.5078970761719788,
-          "rotation": 0.7853981633974483,
-          "target": "2--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "146--",
-      "name": "급식실 내부",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1800,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.9441981219638516,
-          "pitch": 0.30360006257868655,
-          "rotation": 5.497787143782138,
-          "target": "145--"
-        },
-        {
-          "yaw": 0.04891062293831361,
-          "pitch": 0.16937671218553163,
-          "rotation": 0,
-          "target": "147---2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "147---2",
+      "id": "60---2",
       "name": "급식실 내부 2",
       "levels": [
         {
@@ -6935,17 +2843,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 3.1115609146543406,
-          "pitch": 0.17802843207217123,
+          "yaw": 3.1103441681665593,
+          "pitch": 0.17007592601914823,
           "rotation": 0,
-          "target": "146--"
+          "target": "61--"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "148---",
-      "name": "별관 강당 입구",
+      "id": "61--",
+      "name": "급식실 내부",
       "levels": [
         {
           "tileSize": 256,
@@ -6973,23 +2881,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 3.090337820542957,
-          "pitch": 0.34434258837009857,
+          "yaw": 0.018689024560361034,
+          "pitch": 0.09008056244660168,
           "rotation": 0,
-          "target": "124-3-4------1-"
+          "target": "60---2"
         },
         {
-          "yaw": 0.07854571479492023,
-          "pitch": 0.6646220947164885,
-          "rotation": 0,
-          "target": "149----2"
+          "yaw": 2.6825105167221714,
+          "pitch": 0.19339811713307853,
+          "rotation": 5.497787143782138,
+          "target": "63--"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "149----2",
-      "name": "별관 강당 입구 2",
+      "id": "62--",
+      "name": "급식실 앞",
       "levels": [
         {
           "tileSize": 256,
@@ -7017,23 +2925,35 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.5683160197766934,
-          "pitch": 0.3810711668190603,
-          "rotation": 6.283185307179586,
-          "target": "151--2"
+          "yaw": 1.577701895406098,
+          "pitch": 0.26121553409843656,
+          "rotation": 0,
+          "target": "63--"
         },
         {
-          "yaw": 3.019843260728635,
-          "pitch": 0.07863907184014707,
+          "yaw": 3.0960720387935314,
+          "pitch": 0.32012969598573626,
           "rotation": 0,
-          "target": "148---"
+          "target": "56--"
+        },
+        {
+          "yaw": -1.2208319890825692,
+          "pitch": 0.17338085111844137,
+          "rotation": 0,
+          "target": "123--"
+        },
+        {
+          "yaw": -0.07922724640293488,
+          "pitch": 0.03810055871360518,
+          "rotation": 0,
+          "target": "53--"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "150-",
-      "name": "강당",
+      "id": "63--",
+      "name": "급식실 입구",
       "levels": [
         {
           "tileSize": 256,
@@ -7061,23 +2981,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.026040049667603427,
-          "pitch": 0.19833262104054405,
-          "rotation": 0,
-          "target": "151--2"
+          "yaw": -0.5131713520522112,
+          "pitch": 0.25264054884475584,
+          "rotation": 0.7853981633974483,
+          "target": "61--"
         },
         {
-          "yaw": -3.092420874157277,
-          "pitch": 0.27606896061891284,
-          "rotation": 0,
-          "target": "109--"
+          "yaw": -3.109845989802608,
+          "pitch": 0.5981003282156863,
+          "rotation": 0.7853981633974483,
+          "target": "62--"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "151--2",
-      "name": "강당 2",
+      "id": "64---",
+      "name": "기숙사 가는 길",
       "levels": [
         {
           "tileSize": 256,
@@ -7105,23 +3025,30 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.17704250205848027,
-          "pitch": 0.20434324028749273,
+          "yaw": -0.027455465861894623,
+          "pitch": 0.14605205500505747,
           "rotation": 0,
-          "target": "152--3"
-        },
-        {
-          "yaw": 2.9654632244967765,
-          "pitch": 0.14106759471316543,
-          "rotation": 0,
-          "target": "150-"
+          "target": "120----"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -2.654853620568094,
+          "pitch": -0.02177295336923102,
+          "title": "기숙사 입구",
+          "text": ""
+        },
+        {
+          "yaw": -3.1078547118179536,
+          "pitch": -0.062305642317245,
+          "title": "미림 역사관",
+          "text": ""
+        }
+      ]
     },
     {
-      "id": "152--3",
-      "name": "강당 3",
+      "id": "65-1-",
+      "name": "뉴미디어디자인1실 앞",
       "levels": [
         {
           "tileSize": 256,
@@ -7149,23 +3076,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.14390927513742113,
-          "pitch": 0.0884839065551617,
+          "yaw": 0.1435858389931859,
+          "pitch": 0.2852174320908869,
           "rotation": 0,
-          "target": "153---"
+          "target": "66-1"
         },
         {
-          "yaw": 3.092407473987066,
-          "pitch": 0.12975142217337243,
+          "yaw": -3.043769293552188,
+          "pitch": 0.1742148313655374,
           "rotation": 0,
-          "target": "151--2"
+          "target": "73---"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "153---",
-      "name": "강당 무대 위",
+      "id": "66-1",
+      "name": "뉴미디어디자인1실",
       "levels": [
         {
           "tileSize": 256,
@@ -7193,16 +3120,110 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 3.1327924602259323,
-          "pitch": 0.24048271807837196,
-          "rotation": 0,
-          "target": "152--3"
+          "yaw": 2.498032662435299,
+          "pitch": 0.1549944238403551,
+          "rotation": 0.7853981633974483,
+          "target": "65-1-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "154--",
+      "id": "67---",
+      "name": "다목적실 화장실 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.7650717685636277,
+          "pitch": 0.24733766452747652,
+          "rotation": 0,
+          "target": "69--"
+        },
+        {
+          "yaw": -2.5506740816056173,
+          "pitch": -0.018228127212106315,
+          "rotation": 0,
+          "target": "159-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "68---",
+      "name": "다목적실 입구 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.401838266232092,
+          "pitch": 0.24937613236459555,
+          "rotation": 0,
+          "target": "69--"
+        },
+        {
+          "yaw": -0.05166959665630699,
+          "pitch": 0.13839119450349813,
+          "rotation": 0,
+          "target": "150--"
+        },
+        {
+          "yaw": 3.1344716527995917,
+          "pitch": 0.08223530603923912,
+          "rotation": 0,
+          "target": "57--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "69--",
       "name": "다목적실 입구",
       "levels": [
         {
@@ -7231,29 +3252,29 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.917577845143711,
-          "pitch": 0.32582158968481245,
-          "rotation": 0,
-          "target": "12--"
+          "yaw": 1.1802122677061089,
+          "pitch": 0.27814953792130126,
+          "rotation": 0.7853981633974483,
+          "target": "70-"
         },
         {
-          "yaw": -1.1856574679028888,
-          "pitch": 0.26610564189734376,
+          "yaw": -2.914904540210477,
+          "pitch": 0.2759293017371647,
           "rotation": 0,
-          "target": "13---"
+          "target": "68---"
         },
         {
-          "yaw": 1.2075931635488928,
-          "pitch": 0.30844442511483905,
+          "yaw": -1.1798949884324443,
+          "pitch": 0.22244943184826305,
           "rotation": 0,
-          "target": "155--"
+          "target": "67---"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "155--",
-      "name": "다목적실 ",
+      "id": "70-",
+      "name": "다목적실",
       "levels": [
         {
           "tileSize": 256,
@@ -7281,17 +3302,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -3.0971738678990874,
-          "pitch": 0.15715129279834272,
+          "yaw": -3.0887647253129593,
+          "pitch": 0.19206346596346258,
           "rotation": 0,
-          "target": "154--"
+          "target": "69--"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "156--",
-      "name": "체육관 입구",
+      "id": "71--",
+      "name": "대외협력실 앞",
       "levels": [
         {
           "tileSize": 256,
@@ -7319,23 +3340,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.19147458839073295,
-          "pitch": 0.2174173277226359,
+          "yaw": -0.01714311913174882,
+          "pitch": 0.0639088506202512,
           "rotation": 0,
-          "target": "14--"
-        },
-        {
-          "yaw": -3.019993473315772,
-          "pitch": 0.17950101664032303,
-          "rotation": 0,
-          "target": "157---1"
+          "target": "84---"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "157---1",
-      "name": "체육관 계단 1층",
+      "id": "72----3-6-",
+      "name": "등굣길 별관 계단, 3학년 6반 앞",
       "levels": [
         {
           "tileSize": 256,
@@ -7363,22 +3378,3655 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.1833279031142876,
-          "pitch": 0.11502001861278188,
+          "yaw": 1.5052238521369254,
+          "pitch": 0.2726726971744462,
           "rotation": 0,
+          "target": "113----"
+        },
+        {
+          "yaw": 3.111921920075389,
+          "pitch": 0.5419671140475657,
+          "rotation": 0,
+          "target": "89---1"
+        },
+        {
+          "yaw": 0.12300255061429866,
+          "pitch": 0.24472715792389366,
+          "rotation": 0,
+          "target": "40-3-5--"
+        },
+        {
+          "yaw": 0.6073019829305029,
+          "pitch": 0.41285123847594996,
+          "rotation": 0.7853981633974483,
+          "target": "42-3-6"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.4767361758463693,
+          "pitch": -0.00034731518178787724,
+          "title": "3-6",
+          "text": "뉴미디어디자인과<div><br></div><div>담임 선생님 : 김민혜 선생님</div><div>부담임 선생님 : 박진형 선생님</div>"
+        }
+      ]
+    },
+    {
+      "id": "73---",
+      "name": "디지털 스튜디오 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.07868797339983225,
+          "pitch": 0.1095659326840206,
+          "rotation": 0,
+          "target": "65-1-"
+        },
+        {
+          "yaw": -3.096963562697459,
+          "pitch": 0.20206483428690802,
+          "rotation": 0,
+          "target": "82--"
+        },
+        {
+          "yaw": -1.5195299088411538,
+          "pitch": 0.5278777769894738,
+          "rotation": 0,
+          "target": "74--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "74--",
+      "name": "디지털 스튜디오",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.3424798962316977,
+          "pitch": 0.004270580387466083,
+          "rotation": 5.497787143782138,
+          "target": "73---"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "75----1",
+      "name": "매점 가는 길 1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.10645375437213289,
+          "pitch": 0.12672935249740824,
+          "rotation": 0,
+          "target": "76----2"
+        },
+        {
+          "yaw": -2.6882149077023314,
+          "pitch": 0.22045817330494444,
+          "rotation": 0.7853981633974483,
+          "target": "114------"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "76----2",
+      "name": "매점 가는 길 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.0583170025316182,
+          "pitch": 0.3876165934563698,
+          "rotation": 0,
+          "target": "80--"
+        },
+        {
+          "yaw": -3.078041841556802,
+          "pitch": 0.26154360644766683,
+          "rotation": 0,
+          "target": "75----1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "77----2",
+      "name": "매점 가는 복도 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.1764628137601889,
+          "pitch": 0.3846421341775166,
+          "rotation": 0.7853981633974483,
+          "target": "78----3"
+        },
+        {
+          "yaw": -2.96908102216873,
+          "pitch": 0.35519769219890485,
+          "rotation": 0,
+          "target": "79---"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "78----3",
+      "name": "매점 가는 복도 3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.958269532163751,
+          "pitch": 0.3189276610780034,
+          "rotation": 0,
+          "target": "77----2"
+        },
+        {
+          "yaw": -1.4248059264598698,
+          "pitch": 0.23234924754426522,
+          "rotation": 0,
+          "target": "80--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "79---",
+      "name": "매점 가는 복도",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.007436048970934195,
+          "pitch": 0.10228165784015886,
+          "rotation": 0,
+          "target": "77----2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "80--",
+      "name": "매점 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.14329282083312478,
+          "pitch": 0.42012321234996186,
+          "rotation": 0,
+          "target": "81-"
+        },
+        {
+          "yaw": -1.003084876456711,
+          "pitch": 0.2997906030506101,
+          "rotation": 0.7853981633974483,
+          "target": "78----3"
+        },
+        {
+          "yaw": -3.0799395202947064,
+          "pitch": 0.2730232213264294,
+          "rotation": 0,
+          "target": "76----2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "81-",
+      "name": "매점",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.7871821803098085,
+          "pitch": 0.25143642383151743,
+          "rotation": 5.497787143782138,
+          "target": "80--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "82--",
+      "name": "무한상상카페 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.0704117792887597,
+          "pitch": 0.16930527202778478,
+          "rotation": 0.7853981633974483,
+          "target": "145---4"
+        },
+        {
+          "yaw": -1.5115011368371647,
+          "pitch": 0.5087159900539859,
+          "rotation": 0,
+          "target": "83-"
+        },
+        {
+          "yaw": 0.01948007273535879,
+          "pitch": 0.2788740773971288,
+          "rotation": 0,
+          "target": "73---"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "83-",
+      "name": "무한상상카페",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.0195668676984644,
+          "pitch": 0.2956598622933875,
+          "rotation": 0,
+          "target": "82--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "84---",
+      "name": "미림여고 교장실 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.015067590664699537,
+          "pitch": 0.13296615519220367,
+          "rotation": 0,
+          "target": "158--"
+        },
+        {
+          "yaw": 3.1209357038329655,
+          "pitch": 0.15486722985163937,
+          "rotation": 0,
+          "target": "71--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "85--",
+      "name": "방송실 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.5956962458942963,
+          "pitch": 0.4844620146106102,
+          "rotation": 0,
+          "target": "86-"
+        },
+        {
+          "yaw": 0.5995585092753437,
+          "pitch": 0.28563342749394494,
+          "rotation": 0.7853981633974483,
+          "target": "155---"
+        },
+        {
+          "yaw": 3.1304964113489238,
+          "pitch": 0.25222555153034776,
+          "rotation": 0,
+          "target": "144---3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "86-",
+      "name": "방송실",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.8979590745116006,
+          "pitch": 0.48734585277682996,
+          "rotation": 0,
+          "target": "85--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "87----1",
+      "name": "별관 가는 길 1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.20430997560848674,
+          "pitch": 0.35713327851188836,
+          "rotation": 0,
+          "target": "88----2"
+        },
+        {
+          "yaw": 2.893694225197601,
+          "pitch": 0.3616871922201703,
+          "rotation": 4.71238898038469,
+          "target": "3-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "88----2",
+      "name": "별관 가는 길 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.08845700838812931,
+          "pitch": 0.25858707909680234,
+          "rotation": 0,
+          "target": "91---2"
+        },
+        {
+          "yaw": 3.02133637598644,
+          "pitch": 0.4986135107187444,
+          "rotation": 0.7853981633974483,
+          "target": "87----1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "89---1",
+      "name": "별관 계단 1층",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.6159663302105827,
+          "pitch": 0.6922122549820102,
+          "rotation": 11.780972450961727,
+          "target": "92---"
+        },
+        {
+          "yaw": -1.7891932007012183,
+          "pitch": 0.1478389403888336,
+          "rotation": 0,
+          "target": "79---"
+        },
+        {
+          "yaw": 1.7281590254377441,
+          "pitch": 0.405796461399655,
+          "rotation": 0,
+          "target": "72----3-6-"
+        },
+        {
+          "yaw": 3.0783646647855445,
+          "pitch": 0.0005201471626072873,
+          "rotation": 0,
+          "target": "91---2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "90---1-2-",
+      "name": "별관 계단 1층, 2층 사이",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.845861167141205,
+          "pitch": 0.688525039023256,
+          "rotation": 0,
+          "target": "89---1"
+        },
+        {
+          "yaw": 2.8690144005198146,
+          "pitch": 0.045207929691340354,
+          "rotation": 6.283185307179586,
+          "target": "91---2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "91---2",
+      "name": "별관 계단 2층",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.5928906440697608,
+          "pitch": 0.24038204067945657,
+          "rotation": 0,
+          "target": "88----2"
+        },
+        {
+          "yaw": 1.3027951129141204,
+          "pitch": 0.5294391647711922,
+          "rotation": 0,
+          "target": "90---1-2-"
+        },
+        {
+          "yaw": -0.15466546755044064,
+          "pitch": 0.26575248109072547,
+          "rotation": 0,
+          "target": "32-3-1-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "92---",
+      "name": "별관 계단 지하",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.8031885722273104,
+          "pitch": 0.32061350285092693,
+          "rotation": 0.7853981633974483,
+          "target": "89---1"
+        },
+        {
+          "yaw": 0.7944017669435297,
+          "pitch": 0.533248829649704,
+          "rotation": 0.7853981633974483,
           "target": "156--"
-        },
-        {
-          "yaw": -2.721495133849084,
-          "pitch": 0.6279294691038899,
-          "rotation": 0,
-          "target": "158-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "158-",
+      "id": "93---1-2-",
+      "name": "별관 서브계단 1층, 2층 사이",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.905812773417459,
+          "pitch": 0.019445239939773984,
+          "rotation": 0,
+          "target": "95---2"
+        },
+        {
+          "yaw": 2.8445427003265777,
+          "pitch": 0.6396149815462415,
+          "rotation": 0,
+          "target": "94---1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "94---1",
+      "name": "별관 서브계단 1층",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.3242755040452039,
+          "pitch": 0.3595113895800939,
+          "rotation": 0,
+          "target": "55-"
+        },
+        {
+          "yaw": -1.5101953173364695,
+          "pitch": 0.476145422199,
+          "rotation": 4.71238898038469,
+          "target": "38-3-4-"
+        },
+        {
+          "yaw": -2.9767297302081186,
+          "pitch": 0.010781333237323665,
+          "rotation": 0,
+          "target": "93---1-2-"
+        },
+        {
+          "yaw": 2.6282332975416063,
+          "pitch": 0.6485267036468478,
+          "rotation": 0.7853981633974483,
+          "target": "92---"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "95---2",
+      "name": "별관 서브계단 2층",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.768035278712823,
+          "pitch": 0.6820865001156342,
+          "rotation": 0.7853981633974483,
+          "target": "90---1-2-"
+        },
+        {
+          "yaw": -1.350630146106413,
+          "pitch": 0.47722812706287066,
+          "rotation": 0,
+          "target": "96-----2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "96-----2",
+      "name": "별관 서브계단 앞 복도 2층",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.18676202477967507,
+          "pitch": 0.11506945826256043,
+          "rotation": 1.5707963267948966,
+          "target": "95---2"
+        },
+        {
+          "yaw": -3.0294129621646633,
+          "pitch": 0.3354169161879419,
+          "rotation": 0.7853981633974483,
+          "target": "36-3-3-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "97----1-",
+      "name": "별관 서브계단 지하, 1층 사이",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.8497176395547497,
+          "pitch": 0.5735831445740995,
+          "rotation": 0,
+          "target": "52-----"
+        },
+        {
+          "yaw": -2.7975378169946143,
+          "pitch": 0.01988043023466446,
+          "rotation": 0,
+          "target": "94---1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "98----",
+      "name": "보건실, 과학실, 진로체험실 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.22576890561434837,
+          "pitch": 0.10256796740395657,
+          "rotation": 0.7853981633974483,
+          "target": "100----2"
+        },
+        {
+          "yaw": -0.02852872079820301,
+          "pitch": 0.10351982254614711,
+          "rotation": 5.497787143782138,
+          "target": "140----"
+        },
+        {
+          "yaw": -3.0806561171635636,
+          "pitch": 0.14007993662683127,
+          "rotation": 0,
+          "target": "109--"
+        },
+        {
+          "yaw": 1.405690436862237,
+          "pitch": 0.41449439945795774,
+          "rotation": 0,
+          "target": "99-"
+        },
+        {
+          "yaw": -2.452982511975705,
+          "pitch": 0.38932091656757706,
+          "rotation": 0.7853981633974483,
+          "target": "146--"
+        },
+        {
+          "yaw": 2.379450328898475,
+          "pitch": 0.4043381911686659,
+          "rotation": 5.497787143782138,
+          "target": "58-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "99-",
+      "name": "보건실",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.6623755354371497,
+          "pitch": 0.48969780279628594,
+          "rotation": 0,
+          "target": "98----"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "100----2",
+      "name": "복도 끝 계단 2층",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.072372112427294,
+          "pitch": 0.5532252402992484,
+          "rotation": 4.71238898038469,
+          "target": "98----"
+        },
+        {
+          "yaw": -3.046155827305409,
+          "pitch": 0.10547743722161762,
+          "rotation": 0,
+          "target": "140----"
+        },
+        {
+          "yaw": -0.08537135434682064,
+          "pitch": -0.02489119135657525,
+          "rotation": 0,
+          "target": "31-3----"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "101----1",
+      "name": "본관 입구 계단 1층",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.002536326745692,
+          "pitch": 0.5365880292009333,
+          "rotation": 0,
+          "target": "102---"
+        },
+        {
+          "yaw": 1.4067051544901865,
+          "pitch": 0.06397051115369834,
+          "rotation": 0,
+          "target": "142---1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "102---",
+      "name": "본관 입구 내부",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.3844836615387859,
+          "pitch": 0.07323039802119169,
+          "rotation": 0,
+          "target": "101----1"
+        },
+        {
+          "yaw": 2.8799805391426627,
+          "pitch": 0.45352145994203674,
+          "rotation": 0,
+          "target": "103---"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "103---",
+      "name": "본관 입구 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.6024465627577396,
+          "pitch": 0.295487820066608,
+          "rotation": 0,
+          "target": "102---"
+        },
+        {
+          "yaw": 0.04839959783757308,
+          "pitch": 0.22281343903454776,
+          "rotation": 0,
+          "target": "119----"
+        },
+        {
+          "yaw": -2.929088174551314,
+          "pitch": 0.1421136568639838,
+          "rotation": 0,
+          "target": "113----"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "104--",
+      "name": "세미나실 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.8000772653528863,
+          "pitch": 0.48042605951996364,
+          "rotation": 1.5707963267948966,
+          "target": "144---3"
+        },
+        {
+          "yaw": -3.1116019144076184,
+          "pitch": 0.19541350837196703,
+          "rotation": 0,
+          "target": "85--"
+        },
+        {
+          "yaw": 1.8481125224475292,
+          "pitch": 0.5130091267825438,
+          "rotation": 0,
+          "target": "127----01-02-"
+        },
+        {
+          "yaw": -1.5246890807398543,
+          "pitch": 0.4924959071113424,
+          "rotation": 0,
+          "target": "105-"
+        },
+        {
+          "yaw": 0.033126358605933603,
+          "pitch": 0.2739378567022861,
+          "rotation": 0,
+          "target": "44-4-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "105-",
+      "name": "세미나실",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.019020499144812,
+          "pitch": 0.41678829919460014,
+          "rotation": 0,
+          "target": "104--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "106-----",
+      "name": "소프트웨어 허브실, 소프트웨어 지원센터 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.102837274523786,
+          "pitch": 0.13846908928946178,
+          "rotation": 0,
+          "target": "30-3-atm---"
+        },
+        {
+          "yaw": -1.5017531361168963,
+          "pitch": 0.35817349637839513,
+          "rotation": 0,
+          "target": "107--"
+        },
+        {
+          "yaw": 0.02978656864200424,
+          "pitch": 0.17649316029234008,
+          "rotation": 0,
+          "target": "130----03-05-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "107--",
+      "name": "소프트웨어 허브실",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.2560937458239465,
+          "pitch": 0.29999019211913414,
+          "rotation": 0,
+          "target": "106-----"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "108--",
+      "name": "수준별 교실",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.0054013610319963,
+          "pitch": 0.29915016179593934,
+          "rotation": 0,
+          "target": "109--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "109--",
+      "name": "수준별교실 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.119240147477891,
+          "pitch": 0.2084791185683592,
+          "rotation": 0,
+          "target": "17-2"
+        },
+        {
+          "yaw": -1.3481754975606108,
+          "pitch": 0.46270255279360306,
+          "rotation": 5.497787143782138,
+          "target": "108--"
+        },
+        {
+          "yaw": -0.022480219308684823,
+          "pitch": 0.15004609375526812,
+          "rotation": 0,
+          "target": "98----"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "110-1-",
+      "name": "스마트문화앱콘텐츠제작1실 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.0976314651278667,
+          "pitch": 0.2386395134280459,
+          "rotation": 0,
+          "target": "15-1-6-"
+        },
+        {
+          "yaw": 1.2425290448909792,
+          "pitch": 0.5582587244542268,
+          "rotation": 0.7853981633974483,
+          "target": "111-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "111-1",
+      "name": "스마트문화앱콘텐츠제작1실",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.9774931753831808,
+          "pitch": 0.0751904872091913,
+          "rotation": 0.7853981633974483,
+          "target": "110-1-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "112----2",
+      "name": "쓰레기장 가는 언덕 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.05091318144653911,
+          "pitch": 0.15287829848195855,
+          "rotation": 0,
+          "target": "115---"
+        },
+        {
+          "yaw": 3.122319489303548,
+          "pitch": 0.01585775642843501,
+          "rotation": 5.497787143782138,
+          "target": "116-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "113----",
+      "name": "쓰레기장 가는 언덕 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.6480384458626283,
+          "pitch": 0.013225539280041332,
+          "rotation": 0,
+          "target": "72----3-6-"
+        },
+        {
+          "yaw": 0.4509477012736127,
+          "pitch": 0.20575774837461047,
+          "rotation": 0,
+          "target": "53--"
+        },
+        {
+          "yaw": -2.153070665865167,
+          "pitch": 0.061957443674430124,
+          "rotation": 0,
+          "target": "115---"
+        },
+        {
+          "yaw": -2.6872867999664543,
+          "pitch": 0.0427380203922354,
+          "rotation": 0.7853981633974483,
+          "target": "114------"
+        },
+        {
+          "yaw": 2.780807939179633,
+          "pitch": 0.12712929675111795,
+          "rotation": 5.497787143782138,
+          "target": "103---"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "114------",
+      "name": "쓰레기장 가는 언덕 옆 계단 위",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.32663128214575465,
+          "pitch": 0.3901112140572387,
+          "rotation": 1.5707963267948966,
+          "target": "113----"
+        },
+        {
+          "yaw": 0.8750204142071052,
+          "pitch": 0.2474964011618539,
+          "rotation": 5.497787143782138,
+          "target": "75----1"
+        },
+        {
+          "yaw": -2.806354248896197,
+          "pitch": 0.3689045171549594,
+          "rotation": 0,
+          "target": "142---1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "115---",
+      "name": "쓰레기장 가는 언덕",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.1360808717169668,
+          "pitch": 0.2066982750475823,
+          "rotation": 0,
+          "target": "113----"
+        },
+        {
+          "yaw": -3.102977350366153,
+          "pitch": -0.06233730384439795,
+          "rotation": 0,
+          "target": "112----2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "116-",
+      "name": "쓰레기장",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.02010476088132762,
+          "pitch": 0.1608375235405788,
+          "rotation": 0.7853981633974483,
+          "target": "112----2"
+        },
+        {
+          "yaw": 2.557684351389522,
+          "pitch": 0.19258254008875397,
+          "rotation": 5.497787143782138,
+          "target": "140----"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "117--",
+      "name": "아트스튜디오 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.2953092420891927,
+          "pitch": 0.11375184203933131,
+          "rotation": 0.7853981633974483,
+          "target": "118-"
+        },
+        {
+          "yaw": 3.12832162574559,
+          "pitch": 0.24197051215796783,
+          "rotation": 0,
+          "target": "152--"
+        },
+        {
+          "yaw": -0.03578505406202126,
+          "pitch": 0.2472278827552543,
+          "rotation": 0,
+          "target": "125---"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "118-",
+      "name": "아트스튜디오",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.942313060854218,
+          "pitch": 0.2547746383816296,
+          "rotation": 0,
+          "target": "117--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "119----",
+      "name": "야외 중앙 계단 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.7044796957053192,
+          "pitch": -0.027101963008703933,
+          "rotation": 0,
+          "target": "120----"
+        },
+        {
+          "yaw": -3.0337848719639027,
+          "pitch": 0.17340760421142676,
+          "rotation": 0,
+          "target": "103---"
+        },
+        {
+          "yaw": -0.015349738723530848,
+          "pitch": 0.16281028121005825,
+          "rotation": 0,
+          "target": "57--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "120----",
+      "name": "야외 중앙 계단 위",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.2477437061453891,
+          "pitch": 0.5416823620071671,
+          "rotation": 0,
+          "target": "119----"
+        },
+        {
+          "yaw": 1.7542913850740067,
+          "pitch": 0.18354612788602154,
+          "rotation": 0,
+          "target": "64---"
+        },
+        {
+          "yaw": 3.1175246714636966,
+          "pitch": 0.23981099594479183,
+          "rotation": 0,
+          "target": "138--"
+        },
+        {
+          "yaw": -1.3650613870212958,
+          "pitch": 0.1210114869811445,
+          "rotation": 0,
+          "target": "45-atm--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "121--",
+      "name": "영어카페 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.483978541878825,
+          "pitch": 0.4075292047815555,
+          "rotation": 0,
+          "target": "122-"
+        },
+        {
+          "yaw": 0.09033792643468708,
+          "pitch": 0.2821813923116636,
+          "rotation": 0,
+          "target": "36-3-3-"
+        },
+        {
+          "yaw": -3.043857785582917,
+          "pitch": 0.2507548866098954,
+          "rotation": 0,
+          "target": "34-3-2-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "122-",
+      "name": "영어카페",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.5854908225803417,
+          "pitch": 0.15846755917225863,
+          "rotation": 0.7853981633974483,
+          "target": "121--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "123--",
+      "name": "운동장(강당 쪽)",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.1375332481163234,
+          "pitch": 0.088074743340119,
+          "rotation": 0,
+          "target": "62--"
+        },
+        {
+          "yaw": 1.5754473180392239,
+          "pitch": 0.08122195702519797,
+          "rotation": 0,
+          "target": "124--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "124--",
+      "name": "운동장(체육관 쪽)",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.309696004274759,
+          "pitch": 0.14351799115284614,
+          "rotation": 0,
+          "target": "123--"
+        },
+        {
+          "yaw": 2.4334055663600695,
+          "pitch": 0.03915512766359086,
+          "rotation": 0.7853981633974483,
+          "target": "150--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "125---",
+      "name": "음악 감상실 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.4698060842196554,
+          "pitch": 0.537368369723481,
+          "rotation": 5.497787143782138,
+          "target": "126--"
+        },
+        {
+          "yaw": 0.08208473497052005,
+          "pitch": 0.2817753218727752,
+          "rotation": 0,
+          "target": "117--"
+        },
+        {
+          "yaw": 2.4494844360027592,
+          "pitch": 0.24504714554898754,
+          "rotation": 0.7853981633974483,
+          "target": "52-----"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "126--",
+      "name": "음악 감상실",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.2911798856457573,
+          "pitch": 0.18604663571826485,
+          "rotation": 0.7853981633974483,
+          "target": "125---"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "127----01-02-",
+      "name": "응용프로그래밍 개발 실습실 01, 02 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.542551200559032,
+          "pitch": 0.34151998879510437,
+          "rotation": 0,
+          "target": "128----01"
+        },
+        {
+          "yaw": 1.7419158948314664,
+          "pitch": 0.35790655244539593,
+          "rotation": 0,
+          "target": "129----02"
+        },
+        {
+          "yaw": 0.06963763221139274,
+          "pitch": 0.15199133395139164,
+          "rotation": 0,
+          "target": "30-3-atm---"
+        },
+        {
+          "yaw": 2.889865844091908,
+          "pitch": 0.5273814370408108,
+          "rotation": 0,
+          "target": "144---3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "128----01",
+      "name": "응용프로그래밍 개발 실습실 01",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.5902051275076516,
+          "pitch": 0.024238569677763167,
+          "rotation": 0.7853981633974483,
+          "target": "127----01-02-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "129----02",
+      "name": "응용프로그래밍 개발 실습실 02",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.4026590770240865,
+          "pitch": 0.11578551306665652,
+          "rotation": 5.497787143782138,
+          "target": "127----01-02-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "130----03-05-",
+      "name": "응용프로그래밍 개발 실습실 03, 05 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.106887199738929,
+          "pitch": 0.15775353307667928,
+          "rotation": 0,
+          "target": "106-----"
+        },
+        {
+          "yaw": 1.5859892806896516,
+          "pitch": 0.41544183114007005,
+          "rotation": 0,
+          "target": "131----03"
+        },
+        {
+          "yaw": 0.678874427728644,
+          "pitch": 0.43598849536119033,
+          "rotation": 0.7853981633974483,
+          "target": "134----05"
+        },
+        {
+          "yaw": -0.01273816652980031,
+          "pitch": 0.33704727679153557,
+          "rotation": 0,
+          "target": "132----04-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "131----03",
+      "name": "응용프로그래밍 개발 실습실 03",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.3447190468660715,
+          "pitch": 0.12038589823959356,
+          "rotation": 11.780972450961727,
+          "target": "130----03-05-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "132----04-",
+      "name": "응용프로그래밍 개발 실습실 04 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.545614210254131,
+          "pitch": 0.5257907485447273,
+          "rotation": 0,
+          "target": "133----04"
+        },
+        {
+          "yaw": 0.1044442644282153,
+          "pitch": 0.19491848518194388,
+          "rotation": 0,
+          "target": "31-3----"
+        },
+        {
+          "yaw": -3.090010188064584,
+          "pitch": 0.30379356175282446,
+          "rotation": 0,
+          "target": "130----03-05-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "133----04",
+      "name": "응용프로그래밍 개발 실습실 04",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.3421396368042284,
+          "pitch": 0.11819357284398357,
+          "rotation": 0.7853981633974483,
+          "target": "132----04-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "134----05",
+      "name": "응용프로그래밍 개발 실습실 05",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.6443464484125894,
+          "pitch": 0.12337224631390598,
+          "rotation": 5.497787143782138,
+          "target": "130----03-05-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "135--",
+      "name": "정원(미림여고 쪽)",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.0457139233962423,
+          "pitch": 0.15155244997685102,
+          "rotation": 0,
+          "target": "139-----2"
+        },
+        {
+          "yaw": -1.663118366223367,
+          "pitch": 0.14955278459171772,
+          "rotation": 0,
+          "target": "149----"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.22648590871636287,
+          "pitch": -0.10892234102579224,
+          "title": "미림여고",
+          "text": "미림여자고등학교 건물입니다."
+        }
+      ]
+    },
+    {
+      "id": "136--",
+      "name": "정원(연못 앞)",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.8172584298358867,
+          "pitch": 0.16882103897336265,
+          "rotation": 0.7853981633974483,
+          "target": "137-"
+        },
+        {
+          "yaw": -1.7188353541268953,
+          "pitch": 0.07168699346614638,
+          "rotation": 0,
+          "target": "138--"
+        },
+        {
+          "yaw": 1.7266901054934278,
+          "pitch": 0.08237307132012539,
+          "rotation": 0.7853981633974483,
+          "target": "139-----2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "137-",
+      "name": "정원(중앙)",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.180813707589694,
+          "pitch": 0.19189842970463644,
+          "rotation": 12.566370614359176,
+          "target": "136--"
+        },
+        {
+          "yaw": -2.1451963217649848,
+          "pitch": 0.09253058188683738,
+          "rotation": 0.7853981633974483,
+          "target": "135--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "138--",
+      "name": "정원(중앙계단 쪽)",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.13406567316415163,
+          "pitch": 0.13702076247049355,
+          "rotation": 0,
+          "target": "120----"
+        },
+        {
+          "yaw": -3.042489853304808,
+          "pitch": 0.1281143237950655,
+          "rotation": 0,
+          "target": "136--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "139-----2",
+      "name": "정원, 쓰레기장 가는 길 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.1580632128307293,
+          "pitch": -0.08041441207745059,
+          "rotation": 0.7853981633974483,
+          "target": "140----"
+        },
+        {
+          "yaw": 3.0821897196540453,
+          "pitch": 0.13575481587157867,
+          "rotation": 0,
+          "target": "136--"
+        },
+        {
+          "yaw": -1.5823348260300474,
+          "pitch": 0.13507196863516668,
+          "rotation": 0,
+          "target": "135--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "140----",
+      "name": "정원, 쓰레기장 가는 길",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.2522863924983199,
+          "pitch": 0.2708406938883918,
+          "rotation": 0.7853981633974483,
+          "target": "139-----2"
+        },
+        {
+          "yaw": 2.159595886441732,
+          "pitch": 0.34492443509059356,
+          "rotation": 0.7853981633974483,
+          "target": "116-"
+        },
+        {
+          "yaw": 3.1212226889461974,
+          "pitch": 0.15145321027562453,
+          "rotation": 0.7853981633974483,
+          "target": "98----"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.7736037808183873,
+          "pitch": 0.08768182926980828,
+          "title": "미림여고",
+          "text": "미림여자고등학교 건물입니다."
+        }
+      ]
+    },
+    {
+      "id": "141---1-2-",
+      "name": "중앙 계단 1층, 2층 사이",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.1649005258644216,
+          "pitch": 0.6545856285628044,
+          "rotation": 0,
+          "target": "142---1"
+        },
+        {
+          "yaw": -0.33327164912082274,
+          "pitch": 0.0023010593083903075,
+          "rotation": 0,
+          "target": "143---2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "142---1",
+      "name": "중앙 계단 1층",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.3305992414444905,
+          "pitch": 0.6251901147609971,
+          "rotation": 0,
+          "target": "101----1"
+        },
+        {
+          "yaw": -2.722036768586687,
+          "pitch": 0.563730981092597,
+          "rotation": 7.0685834705770345,
+          "target": "114------"
+        },
+        {
+          "yaw": -0.34755692448603526,
+          "pitch": -0.058453966251665435,
+          "rotation": 6.283185307179586,
+          "target": "141---1-2-"
+        },
+        {
+          "yaw": 3.0661195837455386,
+          "pitch": 0.6183804969067133,
+          "rotation": 5.497787143782138,
+          "target": "45-atm--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "143---2",
+      "name": "중앙 계단 2층",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.4005751452914357,
+          "pitch": 0.6829250490582357,
+          "rotation": 5.497787143782138,
+          "target": "141---1-2-"
+        },
+        {
+          "yaw": -0.34156857098807336,
+          "pitch": -0.00483518211805567,
+          "rotation": 0,
+          "target": "144---3"
+        },
+        {
+          "yaw": 2.370570196914022,
+          "pitch": 0.3820048433693941,
+          "rotation": 5.497787143782138,
+          "target": "158--"
+        },
+        {
+          "yaw": -2.700712796702648,
+          "pitch": 0.46859807511194873,
+          "rotation": 0.7853981633974483,
+          "target": "59---"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "144---3",
+      "name": "중앙 계단 3층",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.7170140251302133,
+          "pitch": 0.36471164860557437,
+          "rotation": 0,
+          "target": "143---2"
+        },
+        {
+          "yaw": 2.0860587624191957,
+          "pitch": 0.3090929491116192,
+          "rotation": 0,
+          "target": "104--"
+        },
+        {
+          "yaw": -1.0877982209609272,
+          "pitch": 0.21057505755364936,
+          "rotation": 0,
+          "target": "85--"
+        },
+        {
+          "yaw": 2.514808263903892,
+          "pitch": 0.3216862640607481,
+          "rotation": 1.5707963267948966,
+          "target": "127----01-02-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "145---4",
+      "name": "중앙 계단 4층",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.47641802289129487,
+          "pitch": 0.5109622970286765,
+          "rotation": 4.71238898038469,
+          "target": "82--"
+        },
+        {
+          "yaw": -0.47645572627582133,
+          "pitch": 0.24852522754086515,
+          "rotation": 5.497787143782138,
+          "target": "5-1-1-"
+        },
+        {
+          "yaw": 0.5834851723860552,
+          "pitch": 0.4373400313668192,
+          "rotation": 1.5707963267948966,
+          "target": "13-1-5-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "146--",
+      "name": "진로 체험실",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.5733320043984058,
+          "pitch": 0.09750107346687642,
+          "rotation": 0.7853981633974483,
+          "target": "98----"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "147---",
+      "name": "체육관 계단 아래",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.7024604194059192,
+          "pitch": 0.24585549555775188,
+          "rotation": 0,
+          "target": "151-"
+        },
+        {
+          "yaw": -2.9551254907567124,
+          "pitch": 0.013299243036030362,
+          "rotation": 0,
+          "target": "148--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "148--",
+      "name": "체육관 로비",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.6249379604357017,
+          "pitch": 0.5675525646093789,
+          "rotation": 5.497787143782138,
+          "target": "147---"
+        },
+        {
+          "yaw": -3.1036785995273917,
+          "pitch": 0.2276268414053444,
+          "rotation": 0,
+          "target": "150--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "149----",
+      "name": "체육관 앞 계단 위",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.08995752416706182,
+          "pitch": 0.27451945961077584,
+          "rotation": 0,
+          "target": "150--"
+        },
+        {
+          "yaw": 3.106606973418925,
+          "pitch": 0.10037782250950755,
+          "rotation": 0,
+          "target": "135--"
+        },
+        {
+          "yaw": -1.2353527066627983,
+          "pitch": 0.11421888729032581,
+          "rotation": 5.497787143782138,
+          "target": "159-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "150--",
+      "name": "체육관 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.23390784270791798,
+          "pitch": 0.06118224387886606,
+          "rotation": 0,
+          "target": "148--"
+        },
+        {
+          "yaw": 1.5935657654378446,
+          "pitch": -0.1310842838395203,
+          "rotation": 0,
+          "target": "149----"
+        },
+        {
+          "yaw": -0.45823352261150063,
+          "pitch": 0.14139460871025733,
+          "rotation": 18.06415775814132,
+          "target": "124--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "151-",
       "name": "체육관",
       "levels": [
         {
@@ -7407,17 +7055,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.13302334255567416,
-          "pitch": 0.08133060849684526,
+          "yaw": 2.8179181835837213,
+          "pitch": 0.14566647795944832,
           "rotation": 0,
-          "target": "157---1"
+          "target": "147---"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "159----",
-      "name": "기숙사 입구, 역사관 앞",
+      "id": "152--",
+      "name": "컨설팅룸 앞",
       "levels": [
         {
           "tileSize": 256,
@@ -7439,35 +7087,336 @@ var APP_DATA = {
       ],
       "faceSize": 1800,
       "initialViewParameters": {
-        "yaw": -2.8106321059583372,
-        "pitch": 0.09307198163143227,
-        "fov": 1.3793455132008117
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -0.07483611063497797,
-          "pitch": 0.15676745035023032,
+          "yaw": -1.3803646457486867,
+          "pitch": 0.5262831288012713,
           "rotation": 0,
-          "target": "8---"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -3.1323479464160684,
-          "pitch": -0.11045245412080718,
-          "title": "미림 역사관 (사진 준비중)",
-          "text": "미림여고 개교 40주년을 맞아 지어진 미림 역사관. 미림여고와 미림여자정보과학고의 역사를 볼 수 있다."
+          "target": "153-"
         },
         {
-          "yaw": -2.6812507517515094,
-          "pitch": -0.019455130907612528,
-          "title": "기숙사 입구",
-          "text": "미림여자정보과학고등학교의 기숙사는 4층과 5층이다."
+          "yaw": 0.08118694405628091,
+          "pitch": 0.2809964730619061,
+          "rotation": 0,
+          "target": "156--"
+        },
+        {
+          "yaw": -3.0368402264256975,
+          "pitch": 0.1507203109147497,
+          "rotation": 0,
+          "target": "117--"
         }
-      ]
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "153-",
+      "name": "컨설팅룸",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.0193523619019143,
+          "pitch": 0.37745341475813987,
+          "rotation": 0,
+          "target": "152--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "154-",
+      "name": "코워킹스페이스",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.3692554861572424,
+          "pitch": 0.16887853046643997,
+          "rotation": 0.7853981633974483,
+          "target": "40-3-5--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "155---",
+      "name": "학교 기업실 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.392162282758987,
+          "pitch": 0.315540985285498,
+          "rotation": 11.780972450961727,
+          "target": "85--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "156--",
+      "name": "학생회실 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.12454779435270957,
+          "pitch": -0.16077271509431768,
+          "rotation": 0,
+          "target": "92---"
+        },
+        {
+          "yaw": -1.376142931595112,
+          "pitch": 0.5600124398347983,
+          "rotation": 5.497787143782138,
+          "target": "157-"
+        },
+        {
+          "yaw": -3.075870854659584,
+          "pitch": 0.20615785204160808,
+          "rotation": 0,
+          "target": "152--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "157-",
+      "name": "학생회실",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.0457101694450763,
+          "pitch": 0.39353194092193533,
+          "rotation": 0,
+          "target": "156--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "158--",
+      "name": "행정실 앞",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.19350454820445862,
+          "pitch": 0.6114103611706128,
+          "rotation": 0,
+          "target": "29-3--"
+        },
+        {
+          "yaw": 1.6611460650774,
+          "pitch": 0.09067536268110743,
+          "rotation": 0,
+          "target": "59---"
+        },
+        {
+          "yaw": 2.0763413860292985,
+          "pitch": 0.2809785187681797,
+          "rotation": 0.7853981633974483,
+          "target": "143---2"
+        },
+        {
+          "yaw": -1.5200721477505184,
+          "pitch": 0.236297896382899,
+          "rotation": 0,
+          "target": "84---"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "159-",
+      "name": "휴게시설",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1800,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.025759694975359793,
+          "pitch": 0.11827258766175852,
+          "rotation": 0,
+          "target": "149----"
+        },
+        {
+          "yaw": 1.2249540804300985,
+          "pitch": 0.2593133387147475,
+          "rotation": 0,
+          "target": "67---"
+        }
+      ],
+      "infoHotspots": []
     }
   ],
-  "name": "school-peeking-marzipano",
+  "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
