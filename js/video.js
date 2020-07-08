@@ -8,6 +8,7 @@
                 , content = $('.content');
             $('element_to_pop_up').bPopup({
                 onOpen: function() {
+                    alert('하이');
                     content.html(self.data('bpopup') || '');
                 },
                 onClose: function() {
@@ -21,3 +22,9 @@
         });
     });
 })(jQuery);
+
+document.getElementById('video1').addEventListener('ended', function(e) {
+
+    document.getElementById('video1').get(0).currentTime();
+
+})

@@ -112,7 +112,7 @@
             </div>
 
             <div id="element_to_pop_up">
-                <video width="960" height="720" controls >
+                <video id="video1" width="960" height="720" controls >
                       <source src="video/ip_video.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>

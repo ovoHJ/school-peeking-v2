@@ -22,8 +22,11 @@ body {
     font-weight: bold;
     font-size: 6vmin;
 }
+.section1 span {
+    font-size: 3.3vmin;
+}
 .section1 > #my-button {
-    width: 26vw;
+    width: 500px;
 }
 .section2 {
     background-color: white;
@@ -54,6 +57,15 @@ body {
     font-weight: bold;
 }
 
+@media (max-width: 992px) {
+    .section1 > #my-button {
+        width: 50vmin;
+
+    }
+    .section1 span {
+        font-size: 3vmin;
+    }
+}
 
 @media (min-width: 1025px){
     #scroll {

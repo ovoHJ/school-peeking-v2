@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a0d77d-d0c4-46af-b101-df079e5d8808" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/index/foo3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index/video.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/index/video.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/video.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/developmentProject/HIP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -99,7 +100,12 @@
       <workItem from="1594074724484" duration="192000" />
       <workItem from="1594099560652" duration="3304000" />
       <workItem from="1594104437844" duration="917000" />
-      <workItem from="1594107630522" duration="988000" />
+      <workItem from="1594107630522" duration="1128000" />
+      <workItem from="1594118822406" duration="4197000" />
+      <workItem from="1594134021578" duration="61000" />
+      <workItem from="1594135291428" duration="979000" />
+      <workItem from="1594137473310" duration="144000" />
+      <workItem from="1594137668442" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="add no css review">
       <created>1591581257277</created>
@@ -164,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594104745507</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add index/video">
+      <created>1594108746045</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594108746045</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,21 +205,22 @@
     <MESSAGE value="modify review" />
     <MESSAGE value="modify review nav" />
     <MESSAGE value="Modify index/nav, index/image(foo2), index/video,  mypage, roadview" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify index/nav, index/image(foo2), index/video,  mypage, roadview" />
+    <MESSAGE value="Add index/video" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add index/video" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="747" y="0" width="884" height="905" key="CommitChangelistDialog2" timestamp="1594104743830">
+    <state x="747" y="0" width="884" height="905" key="CommitChangelistDialog2" timestamp="1594108745043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="747" y="0" width="884" height="905" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594104743830" />
+    <state x="747" y="0" width="884" height="905" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594108745043" />
     <state x="157" y="35" width="1536" height="861" key="DiffContextDialog" timestamp="1594099698392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="157" y="35" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594099698392" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594074915056">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594137497946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594074915056" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594137497946" />
     <state x="686" y="230" key="RollbackChangesDialog" timestamp="1591636475113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -215,18 +229,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591462079149" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594108718149">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594108749133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594108718149" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594108749133" />
     <state x="665" y="310" key="git4idea.merge.GitMergeDialog" timestamp="1591636419368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="310" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591636419368" />
-    <state x="607" y="310" key="git4idea.merge.GitPullDialog" timestamp="1594108708288">
+    <state x="607" y="310" key="git4idea.merge.GitPullDialog" timestamp="1594226212187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="607" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594108708288" />
+    <state x="607" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594226212187" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1594108257577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
